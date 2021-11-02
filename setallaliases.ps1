@@ -8,6 +8,10 @@ Set-Alias -Name fil -Value 'C:\scripts\firelucky.ps1'
 Set-Alias -Name trento -Value 'C:\scripts\opendefaulttrento.ps1'
 Set-Alias -Name tn -Value 'C:\scripts\opendefaulttrento.ps1'
 
+#Trento
+Set-Alias -Name GetScarichiAnnullati -Value 'C:\scripts\Selenium\TN\GetReportScarichi.ps1'
+Set-Alias -Name gsa -Value 'C:\Scripts\Selenium\TN\GetReportScarichi.ps1'
+
 #Git
 Set-Alias -Name commit -Value 'C:\scripts\commit.ps1'
 Set-Alias -Name pull -Value 'C:\scripts\pull.ps1'
@@ -15,6 +19,8 @@ Set-Alias -Name newrepo -Value 'C:\scripts\gitCreateRepo.ps1'
 Set-Alias -Name github -Value 'C:\scripts\opengithub.ps1'
 Set-Alias -Name g -Value 'C:\scripts\opengithub.ps1'
 Set-Alias -Name opengitweb -Value Open-GitWeb
+Set-Alias -Name opengit -Value Open-GitWeb
+Set-Alias -Name ogit -Value Open-GitWeb
 Set-Alias -Name ogw -Value Open-GitWeb
 
 #Applications
@@ -80,6 +86,10 @@ Set-Alias -Name organizebydatetime -Value 'C:\scripts\organizebydatetime.ps1'
 Set-Alias -Name orgdt -Value 'C:\scripts\organizebydatetime.ps1'
 Set-Alias -Name filter -Value 'C:\scripts\filter.ps1'
 Set-Alias -Name f -Value 'C:\scripts\filter.ps1'
+Set-Alias -Name psf -Value 'C:\scripts\processfilter.ps1'
+Set-Alias -Name wipe -Value 'C:\scripts\clearcurrentfolder.ps1'
+Set-Alias -Name wipedownloads -Value 'C:\scripts\cleardownloads.ps1'
+Set-Alias -Name wiped -Value 'C:\scripts\cleardownloads.ps1'
 
 
 #Terminal messaging
@@ -111,3 +121,4 @@ Set-Alias -Name h -Value 'C:\scripts\openhome.ps1'
 Set-Alias -Name downloads -Value 'C:\scripts\opendownloads.ps1'
 Set-Alias -Name dw -Value 'C:\scripts\opendownloads.ps1'
 Set-Alias -Name dl -Value 'C:\scripts\opendownloads.ps1'
+Set-Alias -Name powershell -Value 'C:\scripts\openpowershell.ps1'

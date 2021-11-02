@@ -1,0 +1,1 @@
+ps | f $args[0] | ? {$_ -notmatch 'svchost'} | select -Unique | Sort-Object -Property CPU 
