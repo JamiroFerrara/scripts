@@ -1,0 +1,1 @@
+Get-ChildItem -Path ./ -Name | where {$_ -match  '.sln'} | ii

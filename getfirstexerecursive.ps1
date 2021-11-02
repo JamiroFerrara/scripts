@@ -1,0 +1,1 @@
+ls -path ./ -recurse | ? {$_ -match '.exe'} | ? {-not ($_ -match '.config')}

@@ -1,0 +1,1 @@
+ls -path ./ | ? {$_ -match '.exe'} | ? {-not ($_ -match '.config')} 

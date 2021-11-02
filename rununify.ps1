@@ -1,0 +1,2 @@
+cd "C:\GitHub\TecnoACE\TECNOACE_UNIFY\TECNOACE_UNIFY\bin\debug\TECNOACE_UNIFY.exe"
+cl
