@@ -14,6 +14,8 @@ Set-Alias -Name pull -Value 'C:\scripts\pull.ps1'
 Set-Alias -Name newrepo -Value 'C:\scripts\gitCreateRepo.ps1'
 Set-Alias -Name github -Value 'C:\scripts\opengithub.ps1'
 Set-Alias -Name g -Value 'C:\scripts\opengithub.ps1'
+Set-Alias -Name opengitweb -Value Open-GitWeb
+Set-Alias -Name ogw -Value Open-GitWeb
 
 #Applications
 Set-Alias -Name xy -Value 'C:\Program Files (x86)\XYplorer\XYplorer.exe'
