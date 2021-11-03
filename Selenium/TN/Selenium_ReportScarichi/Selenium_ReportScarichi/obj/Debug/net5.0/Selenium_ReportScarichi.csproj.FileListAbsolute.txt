@@ -15,3 +15,4 @@ C:\Scripts\Selenium\TN\Selenium_ReportScarichi\Selenium_ReportScarichi\obj\Debug
 C:\Scripts\Selenium\TN\Selenium_ReportScarichi\Selenium_ReportScarichi\obj\Debug\net5.0\ref\Selenium_ReportScarichi.dll
 C:\Scripts\Selenium\TN\Selenium_ReportScarichi\Selenium_ReportScarichi\obj\Debug\net5.0\Selenium_ReportScarichi.pdb
 C:\Scripts\Selenium\TN\Selenium_ReportScarichi\Selenium_ReportScarichi\obj\Debug\net5.0\Selenium_ReportScarichi.genruntimeconfig.cache
+C:\Scripts\Selenium\TN\Selenium_ReportScarichi\Selenium_ReportScarichi\obj\Debug\net5.0\Selenium_ReportScarichi.csproj.AssemblyReference.cache
