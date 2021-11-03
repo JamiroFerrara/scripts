@@ -11,11 +11,13 @@ Set-Alias -Name tn -Value 'C:\scripts\opendefaulttrento.ps1'
 #Trento
 Set-Alias -Name GetScarichiAnnullati -Value 'C:\scripts\Selenium\TN\GetReportScarichi.ps1'
 Set-Alias -Name gsa -Value 'C:\Scripts\Selenium\TN\GetReportScarichi.ps1'
+Set-Alias -Name formatreportscarichi -Value 'C:\Scripts\formatreportscarichi.ps1'
 
 #Git
 Set-Alias -Name commit -Value 'C:\scripts\commit.ps1'
 Set-Alias -Name pull -Value 'C:\scripts\pull.ps1'
 Set-Alias -Name newrepo -Value 'C:\scripts\gitCreateRepo.ps1'
+Set-Alias -Name clonerepo -Value 'C:\scripts\clonerepo.ps1'
 Set-Alias -Name github -Value 'C:\scripts\opengithub.ps1'
 Set-Alias -Name g -Value 'C:\scripts\opengithub.ps1'
 Set-Alias -Name opengitweb -Value Open-GitWeb
@@ -30,7 +32,7 @@ Set-Alias -Name merge -Value 'C:\Program Files\WinMerge\WinMergeU.exe'
 Set-Alias -Name vs -Value 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe'
 Set-Alias -Name vscode -Value 'C:\Users\Jamiro Ferrara\AppData\Local\Programs\Microsoft VS Code\Code.exe'
 Set-Alias -Name vsc -Value 'C:\Users\Jamiro Ferrara\AppData\Local\Programs\Microsoft VS Code\Code.exe'
-Set-Alias -Name vpn -Value 'C:\Program Files (x86)\Juniper Networks\Network Connect 8.0\dsNetworkConnect.exe'
+Set-Alias -Name vpn -Value 'C:\Scripts\opennetworkconnect.ps1'
 Set-Alias -Name wp -Value 'C:\Users\Jamiro Ferrara\AppData\Local\WhatsApp\WhatsApp.exe'
 Set-Alias -Name revo -Value 'C:\Program Files\VS Revo Group\Revo Uninstaller\RevoUnin.exe'
 Set-Alias -Name vault -Value 'C:\Users\Jamiro Ferrara\AppData\Local\Obsidian\Obsidian.exe'

@@ -1,0 +1,1 @@
+ls -path 'C:\Users\Jamiro Ferrara\Downloads' | f Report_Scarichi.aspx | Get-Content | f '\\'
