@@ -51,6 +51,7 @@ Set-Alias -Name premiere -Value 'C:\Program Files\Adobe\Adobe Premiere Pro 2022\
 Set-Alias -Name pr -Value 'C:\Program Files\Adobe\Adobe Premiere Pro 2022\Adobe Premiere Pro.exe'
 
 #Application Downloads
+Set-Alias -Name initPC -Value 'C:\scripts\appdownloads\initall.ps1'
 Set-Alias -Name dlvscode -Value 'C:\scripts\appdownloads\dlvscode.ps1'
 
 #RDP
@@ -92,6 +93,11 @@ Set-Alias -Name psf -Value 'C:\scripts\processfilter.ps1'
 Set-Alias -Name wipe -Value 'C:\scripts\clearcurrentfolder.ps1'
 Set-Alias -Name wipedownloads -Value 'C:\scripts\cleardownloads.ps1'
 Set-Alias -Name wiped -Value 'C:\scripts\cleardownloads.ps1'
+Set-Alias -Name unzip -Value 'C:\scripts\unzip.ps1'
+Set-Alias -Name listnames -Value 'C:\scripts\createfilenamestxt.ps1'
+Set-Alias -Name shutdown -Value 'C:\scripts\shutdown.ps1'
+Set-Alias -Name sh -Value 'C:\scripts\shutdown.ps1'
+Set-Alias -Name compressall -Value 'C:\scripts\CompressFiles.ps1'
 
 
 #Terminal messaging
@@ -124,3 +130,4 @@ Set-Alias -Name downloads -Value 'C:\scripts\opendownloads.ps1'
 Set-Alias -Name dw -Value 'C:\scripts\opendownloads.ps1'
 Set-Alias -Name dl -Value 'C:\scripts\opendownloads.ps1'
 Set-Alias -Name powershell -Value 'C:\scripts\openpowershell.ps1'
+Set-Alias -Name cf -Value 'C:\scripts\opencf.ps1'
