@@ -9,9 +9,10 @@ Set-Alias -Name trento -Value 'C:\scripts\opendefaulttrento.ps1'
 Set-Alias -Name tn -Value 'C:\scripts\opendefaulttrento.ps1'
 
 #Trento
-Set-Alias -Name GetScarichiAnnullati -Value 'C:\scripts\Selenium\TN\GetReportScarichi.ps1'
-Set-Alias -Name gsa -Value 'C:\Scripts\Selenium\TN\GetReportScarichi.ps1'
-Set-Alias -Name formatreportscarichi -Value 'C:\Scripts\formatreportscarichi.ps1'
+Set-Alias -Name GetScarichiAnnullati -Value 'C:\Scripts\Selenium\GetReportScarichi\GetReportScarichi.ps1'
+Set-Alias -Name gsa -Value 'C:\Scripts\Selenium\GetReportScarichi\GetReportScarichi.ps1'
+Set-Alias -Name GetMissingSessions -Value 'C:\Scripts\Selenium\GetMissingSessions\GetMissingSessions.ps1'
+Set-Alias -Name gms -Value 'C:\Scripts\Selenium\GetMissingSessions\GetMissingSessions.ps1'
 
 #Git
 Set-Alias -Name commit -Value 'C:\scripts\commit.ps1'
@@ -94,11 +95,12 @@ Set-Alias -Name wipe -Value 'C:\scripts\clearcurrentfolder.ps1'
 Set-Alias -Name wipedownloads -Value 'C:\scripts\cleardownloads.ps1'
 Set-Alias -Name wiped -Value 'C:\scripts\cleardownloads.ps1'
 Set-Alias -Name unzip -Value 'C:\scripts\unzip.ps1'
+Set-Alias -Name extractall -Value 'C:\scripts\unzip.ps1'
 Set-Alias -Name listnames -Value 'C:\scripts\createfilenamestxt.ps1'
 Set-Alias -Name shutdown -Value 'C:\scripts\shutdown.ps1'
 Set-Alias -Name sh -Value 'C:\scripts\shutdown.ps1'
 Set-Alias -Name compressall -Value 'C:\scripts\CompressFiles.ps1'
-
+Set-Alias -Name killall -Value 'C:\scripts\killall.ps1'
 
 #Terminal messaging
 Set-Alias -Name getfoundfilemessage -Value 'C:\scripts\getfilefound.ps1'

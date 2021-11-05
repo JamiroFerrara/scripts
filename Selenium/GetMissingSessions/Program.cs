@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 
 namespace GetMissingSessions
 {
@@ -12,16 +13,34 @@ namespace GetMissingSessions
     }
     class Program
     {
+        #region Hide Console
+        [DllImport("kernel32.dll")]
+        static extern IntPtr GetConsoleWindow();
+
+        [DllImport("user32.dll")]
+        static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
+        private static void HideConsoleWindow()
+        {
+            var handle = GetConsoleWindow();
+            ShowWindow(handle, SW_HIDE);
+        }
+
+        const int SW_HIDE = 0;
+        const int SW_SHOW = 5;
+        #endregion
+
         public static string DOWNLOADS = @"C:\Users\Jamiro Ferrara\Downloads";
+
         static void Main(string[] args)
         {
+            HideConsoleWindow();   
             var cf = GetFiles();
             GenerateTxtFromCf(cf);
         }
 
         private static void GenerateTxtFromCf(List<CF> cf)
         {
-            using (StreamWriter sw = new StreamWriter(DOWNLOADS + "SessioniMancanti.txt"))
+            using (StreamWriter sw = new StreamWriter(DOWNLOADS + @"\Sessioni\SessioniMancanti.txt"))
             {
                 foreach(var item in cf)
                 {
@@ -30,13 +49,13 @@ namespace GetMissingSessions
                     sw.WriteLine();
                     foreach(var session in item.sessionimancanti)
                     {
-                        string output2 = $"Sessione Numero: {session[3]} Data: {session[4]}";
-                        sw.WriteLine();
+                        string output2 = $"Sessione Numero: {session[3]} Data: {session[4].Substring(0, session[4].Length - 9)}";
+                        sw.WriteLine(output2);
                     }
+                    sw.WriteLine("-------------------------");
                 }
             }
         }
-
         private static List<CF> GetFiles()
         {
             var dirs = Directory.GetDirectories(DOWNLOADS);
@@ -48,15 +67,19 @@ namespace GetMissingSessions
                     var files = Directory.GetFiles(dir);
                     foreach(var file in files)
                     {
-                        var data = FilterFileForMissingSessions(file);
-                        cf.Add(new CF() { number = Convert.ToInt32(data[0][2]), sessionimancanti = data });
+                        if (file.Contains(".csv"))
+                        {
+                            var data = FilterFileForMissingSessions(file);
+
+                            if (data.Count() != 0)
+                                cf.Add(new CF() { number = Convert.ToInt32(data[0][2]), sessionimancanti = data });
+                        }
                     }
                 }
             }
 
             return cf;
         }
-
         private static List<List<string>> FilterFileForMissingSessions(string file)
         {
             string line = "";
