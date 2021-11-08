@@ -29,13 +29,41 @@ namespace GetMissingSessions
         const int SW_SHOW = 5;
         #endregion
 
+        public static string dtFormat = "dd/MM/yyyy";
+        public static string TransactionModel = "TRANSYYMMddhhmm00NNNN.dat";
         public static string DOWNLOADS = @"C:\Users\Jamiro Ferrara\Downloads";
+        public static string CFDIR = @"C:\Recupero CF";
 
         static void Main(string[] args)
         {
             HideConsoleWindow();   
             var cf = GetFiles();
             GenerateTxtFromCf(cf);
+            BatchElaborateCFFiles(DateTime.Now.Date, cf);
+        }
+
+        private static void BatchElaborateCFFiles(DateTime folderDate, List<CF> cfs)
+        {
+            string dateFormat = folderDate.ToString("ddMMyyyy");
+            foreach(var dir in Directory.GetDirectories(CFDIR))
+            {
+                if (dir.Contains(dateFormat.Substring(2)))
+                {
+                    string innerDir = CFDIR + @"\" + dateFormat.Substring(2) + @"\" + dateFormat;
+                    var cfFolders = Directory.GetDirectories(innerDir);
+                    foreach (var cfFolder in cfFolders)
+                    {
+                        var transactions = Directory.GetFiles(cfFolder + @"\datitx");
+                        foreach (var cf in cfs)
+                        {
+                            if (cfFolder.Contains(cf.number.ToString()))
+                            {
+
+                            }
+                        }
+                    }
+                }
+            }
         }
 
         private static void GenerateTxtFromCf(List<CF> cf)
