@@ -1,3 +1,3 @@
-cd 'C:\Users\Jamiro Ferrara\Images'
+cd $user'/Pictures'
 clear
 ls

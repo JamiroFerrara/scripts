@@ -1,2 +1,2 @@
-cd 'C:\Users\Jamiro Ferrara\Documenti\Powershell'
+cd $user'\Documenti\Powershell'
 cl

@@ -1,2 +1,2 @@
-cd 'C:\Users\Jamiro Ferrara\Downloads'
+cd $user'\Downloads'
 cl

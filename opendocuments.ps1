@@ -1,3 +1,3 @@
-cd 'C:\Users\Jamiro Ferrara\Documents'
+cd $user'\Documents'
 clear
 ls
