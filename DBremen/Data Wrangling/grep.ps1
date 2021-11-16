@@ -1,1 +1,0 @@
-﻿filter grep($keyword) { if ( ($_ | Out-String) -like "*$keyword*") { $_ } }
