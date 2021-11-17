@@ -1,3 +1,2 @@
 cd $user'\Desktop'
-clear
-ls
+cl
