@@ -104,6 +104,10 @@ Set-Alias -Name killall -Value 'C:\scripts\killall.ps1'
 Set-Alias -Name c -Value 'C:\scripts\cd.ps1'
 Set-Alias -Name ip -Value 'C:\scripts\ip.ps1'
 Set-Alias -Name pnp -Value 'C:\scripts\showplugandplay.ps1'
+Set-Alias -Name msbuild -Value 'C:\scripts\msbuild.ps1'
+Set-Alias -Name GetTrans -Value 'C:\scripts\GetCompiledTransFromFolder.ps1'
+Set-Alias -Name gt -Value 'C:\scripts\GetCompiledTransFromFolder.ps1'
+Set-Alias -Name get -Value 'C:\scripts\get.ps1'
 
 #DBremen
 
