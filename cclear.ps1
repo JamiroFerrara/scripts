@@ -1,2 +1,2 @@
 clear
-ls
+l

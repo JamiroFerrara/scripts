@@ -2,6 +2,9 @@
 Set-Alias -Name filter -Value 'C:\scripts\filter.ps1'
 Set-Alias -Name f -Value 'C:\scripts\filter.ps1'
 
+#Base Helpers
+Set-Alias -Name l -Value 'C:\scripts\list.ps1'
+
 #Firefox 
 Set-Alias openfirefox -Value 'C:\Program Files\Mozilla Firefox\firefox.exe'
 Set-Alias fire -Value 'C:\scripts\fire.ps1'
