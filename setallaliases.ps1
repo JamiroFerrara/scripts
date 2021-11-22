@@ -114,6 +114,8 @@ Set-Alias -Name msbuild -Value 'C:\scripts\msbuild.ps1'
 Set-Alias -Name GetTrans -Value 'C:\scripts\GetCompiledTransFromFolder.ps1'
 Set-Alias -Name gt -Value 'C:\scripts\GetCompiledTransFromFolder.ps1'
 Set-Alias -Name get -Value 'C:\scripts\get.ps1'
+Set-Alias -Name lget -Value 'C:\scripts\localget.ps1'
+Set-Alias -Name localget -Value 'C:\scripts\localget.ps1'
 
 #DBremen
 
