@@ -157,3 +157,6 @@ Set-Alias -Name dl -Value 'C:\scripts\opendownloads.ps1'
 Set-Alias -Name powershell -Value 'C:\scripts\openpowershell.ps1'
 Set-Alias -Name here -Value Get-Location
 Set-Alias -Name cf -Value 'C:\scripts\opencf.ps1'
+
+#For Fun
+Set-Alias -Name matrix -Value 'C:\scripts\cmatrix.ps1'
