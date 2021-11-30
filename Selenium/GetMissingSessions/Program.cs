@@ -36,7 +36,7 @@ namespace GetMissingSessions
 
         static void Main(string[] args)
         {
-            HideConsoleWindow();   
+            HideConsoleWindow();
             var cf = GetFiles();
             GenerateTxtFromCf(cf);
             BatchElaborateCFFiles(DateTime.Now.Date, cf);
@@ -70,12 +70,12 @@ namespace GetMissingSessions
         {
             using (StreamWriter sw = new StreamWriter(DOWNLOADS + @"\Sessioni\SessioniMancanti.txt"))
             {
-                foreach(var item in cf)
+                foreach (var item in cf)
                 {
                     string output1 = $"Bus: {item.number}";
                     sw.WriteLine(output1);
                     sw.WriteLine();
-                    foreach(var session in item.sessionimancanti)
+                    foreach (var session in item.sessionimancanti)
                     {
                         string output2 = $"Sessione Numero: {session[3]} Data: {session[4].Substring(0, session[4].Length - 9)}";
                         sw.WriteLine(output2);
@@ -88,12 +88,12 @@ namespace GetMissingSessions
         {
             var dirs = Directory.GetDirectories(DOWNLOADS);
             List<CF> cf = new List<CF>();
-            foreach(var dir in dirs)
+            foreach (var dir in dirs)
             {
-                if (dir.Contains("Sessioni") || dir.Contains("cf"))
+                if (dir.Contains("Sessioni") || dir.Contains("cf") || dir.Contains("sessioni"))
                 {
                     var files = Directory.GetFiles(dir);
-                    foreach(var file in files)
+                    foreach (var file in files)
                     {
                         if (file.Contains(".csv"))
                         {
@@ -116,7 +116,7 @@ namespace GetMissingSessions
             var fileStream = File.OpenText(file);
             List<List<string>> lines = new List<List<string>>();
             List<int> sessions = new List<int>();
-            
+
             while ((line = fileStream.ReadLine()) != null)
             {
                 if (first)
@@ -161,7 +161,7 @@ namespace GetMissingSessions
             });
 
             List<List<string>> missingSessionLines = new List<List<string>>();
-            foreach(var item in filteredNoDuplicates)
+            foreach (var item in filteredNoDuplicates)
             {
                 missingSessionLines.Add(lines.First(x => Convert.ToInt32(x[3]) == item));
             }
