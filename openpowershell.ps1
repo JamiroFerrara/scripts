@@ -1,2 +1,3 @@
 cd $user'\Documenti\Powershell'
-cl
+clear
+ls

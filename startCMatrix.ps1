@@ -1,0 +1,2 @@
+cl
+Enable-ScreenSaver

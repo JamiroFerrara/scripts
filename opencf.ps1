@@ -1,2 +1,3 @@
 cd "C:\Recupero CF"
-cl
+clear
+ls

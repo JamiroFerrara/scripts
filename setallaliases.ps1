@@ -116,6 +116,9 @@ Set-Alias -Name gt -Value 'C:\scripts\GetCompiledTransFromFolder.ps1'
 Set-Alias -Name get -Value 'C:\scripts\get.ps1'
 Set-Alias -Name lget -Value 'C:\scripts\localget.ps1'
 Set-Alias -Name time -Value 'C:\scripts\time.ps1'
+Set-Alias -Name q -Value 'C:\scripts\exit.ps1'
+Set-Alias -Name cm -Value 'C:\scripts\startCMatrix.ps1'
+Set-Alias -Name stack -Value 'C:\scripts\googler.ps1'
 
 #DBremen
 
@@ -161,3 +164,4 @@ Set-Alias -Name cf -Value 'C:\scripts\opencf.ps1'
 
 #For Fun
 Set-Alias -Name matrix -Value 'C:\scripts\cmatrix.ps1'
+Set-Alias -Name pozzi -Value 'C:\scripts\pozzigape.ps1'

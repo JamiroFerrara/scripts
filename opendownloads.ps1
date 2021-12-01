@@ -1,2 +1,3 @@
 cd $user'\Downloads'
-cl
+clear
+ls
