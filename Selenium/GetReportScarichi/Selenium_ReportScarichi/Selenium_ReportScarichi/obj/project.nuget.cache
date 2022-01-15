@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vmUKIpqzdhTMtm+qA2hGqzvDBwwMg9KSI1Sa+VLL6rJUJHjfUn95JrExNv/8nbs8KFm9U7NDDQTGx/X2B9kNHQ==",
+  "dgSpecHash": "BjyO0CyCUSZp3bT0fSDFco9xiNuMVM01r+dfDFpNk9vUYYNGAzi1k/V94uOBF5EjF2Z5/Ino4SP6nGoUCrmu8w==",
   "success": true,
-  "projectFilePath": "C:\\Scripts\\Selenium\\TN\\Selenium_ReportScarichi\\Selenium_ReportScarichi\\Selenium_ReportScarichi.csproj",
+  "projectFilePath": "C:\\Scripts\\Selenium\\GetReportScarichi\\Selenium_ReportScarichi\\Selenium_ReportScarichi\\Selenium_ReportScarichi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jamiro Ferrara\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Jamiro Ferrara\\.nuget\\packages\\selenium.webdriver\\4.0.1\\selenium.webdriver.4.0.1.nupkg.sha512"

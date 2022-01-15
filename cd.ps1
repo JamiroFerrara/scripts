@@ -1,2 +1,3 @@
 cd $args[0]
-cl
+clear
+ls

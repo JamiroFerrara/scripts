@@ -1,3 +1,2 @@
-cd 'C:\GitHub\Tecnoace'
-clear
-ls
+cd '~\GitHub\Tecnoace'
+c

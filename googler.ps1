@@ -1,48 +1,8 @@
-# exto-posh-web for stackoverflow
-# Init by extofer 
-#
-# like a text web browser
-# use this cmdlet to list results of 
-# stackoverflow search and select the 
-# Q&A to read text only
-#
-# BSD New License  
-# https://raw.github.com/extofer/exto-posh-web/master/LICENSE
-
-
-$arg= $args[0]
-cls
-$arg  = $arg -replace " ","+"
-   Write-Host $step
-$count = 0
-$search = Invoke-WebRequest -Uri "http://google.com/search?q=$arg"
-
-# filters link results to "questions" only
-$results = $search.Links.Href
-
-# list all results to key word searched
-foreach ($result in $results)
+if ($args.count -eq 0)
 {
-  $count += 1 
-    
-    # excluded the tag links
-    if ($result.href -notlike "*/questions/tagged*")
-    {
-        Write-Host [$count]  -foregroundcolor DarkMagenta
-        Write-Host $result.href
-    }
+    wsl googler -x -c us
 }
-
-$getlink = Read-Host "Select the linkt you want to view" 
-
-[int]$i = $getlink-1
-
-# gets content of the selected post
-$var = $results[$i].href
-
-Write-Host You selected $results[$i].InnerText uri $var  -foregroundcolor DarkMagenta 
-
-
-$data = Invoke-WebRequest "http://stackoverflow.com$var"
-Write-Host ******************************** WebPage ********************************  -foregroundcolor DarkMagenta 
-echo $data
+if ($args.count -eq 1)
+{
+    wsl googler -x -c us $args[0]
+}

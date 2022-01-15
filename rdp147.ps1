@@ -1,5 +1,5 @@
      # Create credentials
-     cmdkey /generic:"172.20.3.147" /user:"MITTRENTO\ITE1544" /pass:"Trento30"
+     cmdkey /generic:"172.20.3.147" /user:"MITTRENTO\ITE1544" /pass:"Trento31"
      # Connect MSTSC with servername and credentials created before
      mstsc /v:172.20.3.147
      # Delete the credentials after MSTSC session is done

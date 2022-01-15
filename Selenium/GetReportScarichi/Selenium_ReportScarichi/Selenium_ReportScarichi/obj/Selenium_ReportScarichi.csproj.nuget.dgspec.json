@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Scripts\\Selenium\\TN\\Selenium_ReportScarichi\\Selenium_ReportScarichi\\Selenium_ReportScarichi.csproj": {}
+    "C:\\Scripts\\Selenium\\GetReportScarichi\\Selenium_ReportScarichi\\Selenium_ReportScarichi\\Selenium_ReportScarichi.csproj": {}
   },
   "projects": {
-    "C:\\Scripts\\Selenium\\TN\\Selenium_ReportScarichi\\Selenium_ReportScarichi\\Selenium_ReportScarichi.csproj": {
+    "C:\\Scripts\\Selenium\\GetReportScarichi\\Selenium_ReportScarichi\\Selenium_ReportScarichi\\Selenium_ReportScarichi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Scripts\\Selenium\\TN\\Selenium_ReportScarichi\\Selenium_ReportScarichi\\Selenium_ReportScarichi.csproj",
+        "projectUniqueName": "C:\\Scripts\\Selenium\\GetReportScarichi\\Selenium_ReportScarichi\\Selenium_ReportScarichi\\Selenium_ReportScarichi.csproj",
         "projectName": "Selenium_ReportScarichi",
-        "projectPath": "C:\\Scripts\\Selenium\\TN\\Selenium_ReportScarichi\\Selenium_ReportScarichi\\Selenium_ReportScarichi.csproj",
+        "projectPath": "C:\\Scripts\\Selenium\\GetReportScarichi\\Selenium_ReportScarichi\\Selenium_ReportScarichi\\Selenium_ReportScarichi.csproj",
         "packagesPath": "C:\\Users\\Jamiro Ferrara\\.nuget\\packages\\",
-        "outputPath": "C:\\Scripts\\Selenium\\TN\\Selenium_ReportScarichi\\Selenium_ReportScarichi\\obj\\",
+        "outputPath": "C:\\Scripts\\Selenium\\GetReportScarichi\\Selenium_ReportScarichi\\Selenium_ReportScarichi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -94,7 +94,7 @@ namespace SeleniumTest
                             var larr = line.Split('\\');
                             if (larr.Length == 9)
                             {
-                                string dir = @"\" + larr[2] + @"\" + larr[3] + @"\" + larr[4] + @"\" + larr[5] + @"\" + larr[6] + @"\" + larr[7] + @"\" + larr[8].Substring(0, larr[8].Length - 5);
+                                string dir = @"\" + larr[2] + @"\" + larr[3] + @"\" + larr[4] + @"\" + larr[5] + @"\" + larr[6] + @"\" + larr[7] + @"\" + larr[8].Substring(0, larr[8].Length - 5) + @"\TRANSACTIONS.xml";
                                 directories.Add(dir);
                             }
                         }

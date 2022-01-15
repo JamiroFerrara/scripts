@@ -1,3 +1,3 @@
-cd 'C:\GitHub\TecnoACE\DragAndDrop_Demo'
+cd '~\GitHub\TecnoACE\DragAndDrop_Demo'
 clear
 ls
