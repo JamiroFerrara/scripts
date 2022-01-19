@@ -46,7 +46,6 @@ try {
 
 	ListCryptoRates | format-table -property @{e='Cryptocurrency';width=28},USD,EUR,RUB,CNY
         Start-Sleep 10000
-        crypto
 	exit 0 # success
 } catch {
 	"⚠️ Error: $($Error[0]) ($($MyInvocation.MyCommand.Name):$($_.InvocationInfo.ScriptLineNumber))"
