@@ -124,7 +124,6 @@ Set-Alias -Name extractall -Value 'C:\scripts\unzip.ps1'
 Set-Alias -Name listnames -Value 'C:\scripts\createfilenamestxt.ps1'
 Set-Alias -Name shutdown -Value 'C:\scripts\shutdown.ps1'
 Set-Alias -Name sd -Value 'C:\scripts\shutdown.ps1'
-Set-Alias -Name sh -Value 'C:\scripts\shutdown.ps1'
 Set-Alias -Name compressall -Value 'C:\scripts\CompressFiles.ps1'
 Set-Alias -Name killall -Value 'C:\scripts\killall.ps1'
 Set-Alias -Name ip -Value 'C:\scripts\ip.ps1'
@@ -186,6 +185,8 @@ Set-Alias -Name dun -Value 'C:\scripts\deploy-unify\deploy-unify.ps1'
 Set-Alias -Name rnia -Value 'C:\scripts\deploy-unify\rename-all.ps1'
 Set-Alias -Name share -Value 'C:\scripts\share-file.ps1'
 Set-Alias -Name sh -Value 'C:\scripts\share-file.ps1'
+Set-Alias -Name enable-powershell-remoting -Value 'C:\scripts\enable-powershell-remoting.ps1'
+Set-Alias -Name epr -Value 'C:\scripts\enable-powershell-remoting.ps1'
 
 #DBremen
 

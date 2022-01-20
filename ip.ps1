@@ -1,1 +1,2 @@
-Get-NetIPAddress
+#Get-NetIPAddress
+(Invoke-WebRequest ifconfig.me/ip).Content.Trim()
