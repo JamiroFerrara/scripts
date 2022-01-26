@@ -1,0 +1,28 @@
+/* Additional styling for DeepDark Ruby Edition theme for Waterfox
+/* Author: Stefano Rosselli
+/* license: © Stefano Rosselli | all rights reserved
+/* Created: 12/02/2020
+*/
+
+/* :::::: ABOUT WEBRTC :::::: */
+
+@-moz-document  url("about:webrtc") {
+  
+  #content > div {
+    border: 1px solid var(--deepdark-border-color) !important;
+    background: none repeat scroll 0% 0% var(--deepdark-table-data-bg-color) !important;
+  }
+  
+  .peer-connection > h3 {
+    background-color: transparent !important;
+  }
+  
+  .peer-connection table tr:nth-child(even) {
+    background-color: var(--deepdark-btn-bg-color) !important;
+  }
+  
+  a {
+	color: var(--deepdark-accent-color) !important;
+  }
+
+}

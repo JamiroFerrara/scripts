@@ -1,9 +1,14 @@
 if ($args.count -eq 0)
 {   
-    $sItem = ls -name | fzf --height 50% --reverse 
+    $file = ls -name | fzf --height 50% --reverse 
+    $compressedFile = $file.substring(0, $file.length-4)
+    Compress-Archive -force $file $compressedFile
+    $compressedFile = $compressedFile + ".zip"
 
-    $link = wsl curl -F "file=@$sItem" 0x0.st
-    $linkAndName = $link + " - " + $sItem
+    $link = wsl curl -F "file=@$compressedFile" 0x0.st
+    rm $compressedFile
+
+    $linkAndName = $link + " - " + $file
     Set-Clipboard $linkAndName
 
     echo "---------------------------"
@@ -15,8 +20,14 @@ else
     if ($args.count -eq 1)
     {
         $file = $args[0].substring(2)
-        $link = wsl curl -F "file=@$file" 0x0.st
-        $linkAndName = $link + " " + $sItem
+        $compressedFile = $file.substring(0, $file.length-4)
+        Compress-Archive -force $file $compressedFile
+        $compressedFile = $compressedFile + ".zip"
+
+        $link = wsl curl -F "file=@$compressedFile" 0x0.st
+        rm $compressedFile
+
+        $linkAndName = $link + " " + $file
         Set-Clipboard $linkAndName
 
         echo "---------------------------"

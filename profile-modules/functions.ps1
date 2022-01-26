@@ -43,27 +43,27 @@ filter Get-FileSize {
     )
 }
 
-Function Get-ESSearchResult {
-    [CmdletBinding()]
-    [Alias("s")]
-    Param
-    (
-        #searchterm
-        [Parameter(Mandatory=$true, Position=0)]
-        $SearchTerm,
-        #openitem
-        [switch]$OpenItem,
-        [switch]$CopyFullPath,
-        [switch]$OpenFolder,
-        [switch]$AsObject
-    )
-    $esPath = 'C:\Program Files*\es\es.exe'
-    if (!(Test-Path (Resolve-Path $esPath).Path)){
-        Write-Warning "Everything commandline es.exe could not be found on the system please download and install via http://www.voidtools.com/es.zip"
-    }
-    $result = & (Resolve-Path $esPath).Path $(Get-Location) $SearchTerm
-    echo $result
-}
+#Function Get-ESSearchResult {
+#    [CmdletBinding()]
+#    [Alias("s")]
+#    Param
+#    (
+#        #searchterm
+#        [Parameter(Mandatory=$true, Position=0)]
+#        $SearchTerm,
+#        #openitem
+#        [switch]$OpenItem,
+#        [switch]$CopyFullPath,
+#        [switch]$OpenFolder,
+#        [switch]$AsObject
+#    )
+#    $esPath = 'C:\Program Files*\es\es.exe'
+#    if (!(Test-Path (Resolve-Path $esPath).Path)){
+#        Write-Warning "Everything commandline es.exe could not be found on the system please download and install via http://www.voidtools.com/es.zip"
+#    }
+#    $result = & (Resolve-Path $esPath).Path $(Get-Location) $SearchTerm
+#    $result | fzf --height 50% --reverse | ii
+#}
 
 Function Get-ESGlobalSearchResult {
     [CmdletBinding()]
@@ -83,8 +83,8 @@ Function Get-ESGlobalSearchResult {
     if (!(Test-Path (Resolve-Path $esPath).Path)){
         Write-Warning "Everything commandline es.exe could not be found on the system please download and install via http://www.voidtools.com/es.zip"
     }
-    $result = & (Resolve-Path $esPath).Path $SearchTerm | ? {$_ -notmatch '.manifest'} | ? {$_ -notmatch '.dll'}| ? {$_ -notmatch '.service'} | ? {$_ -notmatch '.timer'} | ? {$_ -notmatch '.dsh'} | ? {$_ -notmatch '.cpp'} | ? {$_ -notmatch '.py'}
-     echo $result
+    $result = & (Resolve-Path $esPath).Path /a-d $SearchTerm | ? {$_ -notmatch '.manifest'} | ? {$_ -notmatch '.dll'}| ? {$_ -notmatch '.service'} | ? {$_ -notmatch '.timer'} | ? {$_ -notmatch '.dsh'} | ? {$_ -notmatch '.cpp'} | ? {$_ -notmatch '.py'}
+    $result | fzf --height 50% --reverse | ii
 }
 
 Function Open-ESSearchResult {
@@ -105,7 +105,7 @@ Function Open-ESSearchResult {
     if (!(Test-Path (Resolve-Path $esPath).Path)){
         Write-Warning "Everything commandline es.exe could not be found on the system please download and install via http://www.voidtools.com/es.zip"
     }
-    $result = & (Resolve-Path $esPath).Path $(Get-Location) $SearchTerm
+    $result = & (Resolve-Path $esPath).Path /a-d $(Get-Location) $SearchTerm
     ii $result
 }
 

@@ -1,0 +1,17 @@
+skin    browser         deepdarkre 		jar:chrome/deepdark_re.jar!/browser/
+skin    communicator  	deepdarkre 		jar:chrome/deepdark_re.jar!/communicator/
+skin    devtools	  	deepdarkre 		jar:chrome/deepdark_re.jar!/devtools/
+skin    global          deepdarkre 		jar:chrome/deepdark_re.jar!/global/
+skin    mozapps         deepdarkre 	    jar:chrome/deepdark_re.jar!/mozapps/
+skin    webide          deepdarkre      jar:chrome/deepdark_re.jar!/webide/
+
+skin   	os_target       deepdarkre    	jar:chrome/deepdark_re.jar!/os_target/common/
+skin   	os_target       deepdarkre    	jar:chrome/deepdark_re.jar!/os_target/linux/ os=Linux
+skin   	os_target       deepdarkre    	jar:chrome/deepdark_re.jar!/os_target/macosx/osx/ os=Darwin
+skin   	os_target       deepdarkre    	jar:chrome/deepdark_re.jar!/os_target/macosx/lion/ os=Darwin osversion>=10.7
+skin   	os_target       deepdarkre    	jar:chrome/deepdark_re.jar!/os_target/winXP/ os=WINNT osversion<6
+skin   	os_target       deepdarkre    	jar:chrome/deepdark_re.jar!/os_target/win7/ os=WINNT osversion>=6
+skin   	os_target       deepdarkre    	jar:chrome/deepdark_re.jar!/os_target/win10/ os=WINNT osversion>=10
+
+skin    app_version     deepdarkre    	jar:chrome/deepdark_re.jar!/app_version/56/ appversion<57.0a1
+skin    app_version     deepdarkre    	jar:chrome/deepdark_re.jar!/app_version/beta/ appversion>=57.0a1

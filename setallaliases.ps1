@@ -21,6 +21,16 @@ Set-Alias -Name GetScarichiAnnullati -Value 'C:\Scripts\Selenium\GetReportScaric
 Set-Alias -Name gsa -Value 'C:\Scripts\Selenium\GetReportScarichi\GetReportScarichi.ps1'
 Set-Alias -Name GetMissingSessions -Value 'C:\Scripts\Selenium\GetMissingSessions\GetMissingSessions.ps1'
 Set-Alias -Name gms -Value 'C:\Scripts\Selenium\GetMissingSessions\GetMissingSessions.ps1'
+Set-Alias -Name tncd -Value 'C:\Scripts\rdp-trento\tncd.ps1'
+Set-Alias -Name tnd -Value 'C:\Scripts\rdp-trento\deploy-update-valida.ps1'
+Set-Alias -Name tndep -Value 'C:\Scripts\rdp-trento\deploy-update-valida.ps1'
+Set-Alias -Name rcf -Value 'C:\Scripts\trento-recupero-cf\recupero-defaults.ps1'
+Set-Alias -Name get-trans-dates -Value 'C:\Scripts\trento-trans-buster\get-trans-dates.ps1'
+
+#RDP
+Set-Alias -Name rdp -Value 'C:\scripts\rdp-trento\rdp-trento.ps1'
+Set-Alias -Name rdp147 -Value 'C:\scripts\rdp147.ps1'
+Set-Alias -Name rdp146 -Value 'C:\scripts\rdp146.ps1'
 
 #Git
 Set-Alias -Name commit -Value 'C:\scripts\commit.ps1'
@@ -78,9 +88,6 @@ Set-Alias -Name lf -Value 'C:\Scripts\ranger.ps1'
 Set-Alias -Name initPC -Value 'C:\scripts\appdownloads\initall.ps1'
 Set-Alias -Name dlvscode -Value 'C:\scripts\appdownloads\dlvscode.ps1'
 
-#RDP
-Set-Alias -Name rdp147 -Value 'C:\scripts\rdp147.ps1'
-Set-Alias -Name rdp146 -Value 'C:\scripts\rdp146.ps1'
 
 #Helpers
 Set-Alias -Name h -Value Get-Help
@@ -128,7 +135,6 @@ Set-Alias -Name compressall -Value 'C:\scripts\CompressFiles.ps1'
 Set-Alias -Name killall -Value 'C:\scripts\killall.ps1'
 Set-Alias -Name ip -Value 'C:\scripts\ip.ps1'
 Set-Alias -Name pnp -Value 'C:\scripts\showplugandplay.ps1'
-Set-Alias -Name msbuild -Value 'C:\scripts\msbuild.ps1'
 Set-Alias -Name GetTrans -Value 'C:\scripts\GetCompiledTransFromFolder.ps1'
 Set-Alias -Name gt -Value 'C:\scripts\GetCompiledTransFromFolder.ps1'
 Set-Alias -Name get -Value 'C:\scripts\get.ps1'
@@ -149,6 +155,8 @@ Set-Alias -Name dotnetversion -Value 'C:\scripts\getdotnetversion.ps1'
 Set-Alias -Name c -Value 'C:\scripts\fcd.ps1'
 Set-Alias -Name fcd -Value 'C:\scripts\fcd.ps1'
 Set-Alias -Name fcdr -Value 'C:\scripts\fcd-recursive.ps1'
+Set-Alias -Name jump -Value 'C:\scripts\jump.ps1'
+Set-Alias -Name j -Value 'C:\scripts\jump.ps1'
 Set-Alias -Name fii -Value 'C:\scripts\fii.ps1'
 Set-Alias -Name i -Value 'C:\scripts\fii.ps1'
 Set-Alias -Name killprocess -Value 'C:\scripts\killprocess.ps1'
@@ -160,6 +168,8 @@ Set-Alias -Name newscript -Value 'C:\scripts\newscript.ps1'
 Set-Alias -Name newsc -Value 'C:\scripts\newscript.ps1'
 Set-Alias -Name wifi -Value 'C:\scripts\wifi-connect.ps1'
 Set-Alias -Name fcp -Value 'C:\scripts\fzfcopy.ps1'
+Set-Alias -Name cop -Value 'C:\scripts\copy.ps1'
+Set-Alias -Name cut -Value 'C:\scripts\cut.ps1'
 Set-Alias -Name bookmarks -Value 'C:\scripts\bookmarks\bookmarks.ps1'
 Set-Alias -Name bm -Value 'C:\scripts\bookmarks\bookmarks.ps1'
 Set-Alias -Name youtube -Value 'C:\scripts\search-youtube.ps1'
@@ -187,6 +197,8 @@ Set-Alias -Name share -Value 'C:\scripts\share-file.ps1'
 Set-Alias -Name sh -Value 'C:\scripts\share-file.ps1'
 Set-Alias -Name enable-powershell-remoting -Value 'C:\scripts\enable-powershell-remoting.ps1'
 Set-Alias -Name epr -Value 'C:\scripts\enable-powershell-remoting.ps1'
+Set-Alias -Name rem -Value 'C:\scripts\rem.ps1'
+Set-Alias -Name s -Value 'C:\scripts\search-the-web\search-the-web.ps1'
 
 #DBremen
 
@@ -231,6 +243,9 @@ Set-Alias -Name here -Value Get-Location
 Set-Alias -Name cf -Value 'C:\scripts\opencf.ps1'
 Set-Alias -Name dotfiles -Value 'C:\scripts\opendotfiles.ps1'
 Set-Alias -Name tserver -Value 'C:\scripts\tserver.ps1'
+
+#OpenAI
+Set-Alias -Name psh -Value 'C:\scripts\Open-Ai\PS-Helper.ps1'
 
 #For Fun
 Set-Alias -Name matrix -Value 'C:\scripts\cmatrix.ps1'

@@ -1,0 +1,9 @@
+{
+  "prompt": "Q: How do i trim a string in powershell?\nA: $_.Trim()\n\nQ: How do i rename file in powershell?\nA: Rename-Item\n\nQ: How do i change password in powershell?\nA: Set-ADAccountPassword -Identity $user -Reset -NewPassword (ConvertTo-SecureString -AsPlainText $newPass -Force)\n\nQ: What are all of the operators in powershell? \nA : -ne -lt -le -gt -like -contains -notcontains -eq\n\nQ: How do i delete item in powershell?\nA: Remove-Item\n\nQ: how do i access remote powershell session?\nA: Enter-PSSession\n\nQ: how do i hack the world in powershell? \nA: No Idea\n\nQ: how do i move file powershell?\nA: Move-Item\n\nQ: how to remove directory in powershell?\nA: Remove-Item or\n\nQ: how to use for loop in powershell?\nA: For-Each or foreach\n\nQ:how do i change username in powershell? \nA: Set-ADAccountPassword -User $user\n\nQ:how do i xxxx in powershell?",
+  "temperature": 0,
+  "max_tokens": 64,
+  "top_p": 1,
+  "frequency_penalty": 0,
+  "presence_penalty": 0,
+  "stop": ["\n\n"]
+}

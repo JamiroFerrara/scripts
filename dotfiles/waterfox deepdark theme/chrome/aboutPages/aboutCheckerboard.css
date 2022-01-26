@@ -1,0 +1,40 @@
+/* Additional styling for DeepDark Ruby Edition theme for Waterfox
+/* Author: Stefano Rosselli
+/* license: © Stefano Rosselli | all rights reserved
+/* Created: 12/02/2020
+*/
+
+/* :::::: ABOUT CHECKERBOARD :::::: */
+
+@-moz-document  url("about:checkerboard") {
+  
+  table.listing {
+    border-collapse: collapse !important;
+    background: var(--deepdark-table-data-bg-color) !important; 
+  }
+  
+  table th, table td {
+    border: 1px solid var(--deepdark-border-color) !important;
+    background: transparent !important;
+    color: var(--deepdark-content-color) !important;
+  }
+  
+  #trace[id],
+  #canvas {
+	-moz-appearance: none !important;
+	background: var(--deepdark-table-data-bg-color) !important;
+	color: var(--deepdark-content-color) !important;
+	border-radius: var(--deepdark-border-radius) !important;
+    border: 1px solid var(--deepdark-border-color) !important;
+	padding: 10px !important;
+  }
+  
+  hr {
+	color: var(--deepdark-separator-color) !important;
+  }
+  
+  #active {
+    border: 0 !important;
+  }
+
+}
