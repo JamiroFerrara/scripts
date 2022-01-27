@@ -243,9 +243,11 @@ Set-Alias -Name here -Value Get-Location
 Set-Alias -Name cf -Value 'C:\scripts\opencf.ps1'
 Set-Alias -Name dotfiles -Value 'C:\scripts\opendotfiles.ps1'
 Set-Alias -Name tserver -Value 'C:\scripts\tserver.ps1'
+Set-Alias -Name aliases -Value 'C:\scripts\aliases.ps1'
 
 #OpenAI
 Set-Alias -Name psh -Value 'C:\scripts\Open-Ai\PS-Helper.ps1'
+Set-Alias -Name alexa -Value 'C:\scripts\Open-Ai\alexa.ps1'
 
 #For Fun
 Set-Alias -Name matrix -Value 'C:\scripts\cmatrix.ps1'

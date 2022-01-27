@@ -26,7 +26,7 @@ else
         $videoId = $s_video.id.videoId
 
         $VideoUrl = $w_uri + $videoId
-        Start-Process $VideoUrl
+        mpv.exe $VideoUrl
         Set-Clipboard $VideoUrl
     }
 
@@ -55,7 +55,7 @@ else
         $videoId = $s_video.id.videoId
 
         $VideoUrl = $w_uri + $videoId
-        Start-Process $VideoUrl
+        mpv.exe $VideoUrl
         Set-Clipboard $VideoUrl
     }
 }
