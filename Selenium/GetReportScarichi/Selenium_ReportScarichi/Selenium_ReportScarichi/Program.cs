@@ -54,9 +54,9 @@ namespace SeleniumTest
             dateBox.SendKeys(Keys.Backspace);
             dateBox.SendKeys(Keys.Backspace);
             dateBox.SendKeys(Keys.Backspace);
-            var startYear= nowDate.AddDays(-nowDate.Day).AddMonths(-nowDate.Month);
-            dateBox.SendKeys("01/01/");
-            dateBox.SendKeys(startYear.Year.ToString());
+            var startYear = nowDate.AddDays(-nowDate.Day).AddMonths(-nowDate.Month);
+            dateBox.SendKeys("16/01/");
+            dateBox.SendKeys("2022");
             cDriver.FindElement(By.Id("Button2")).Click();
             Thread.Sleep(1000);
 
@@ -69,7 +69,7 @@ namespace SeleniumTest
         private static void DeleteExistingReportScarichi()
         {
             var files = Directory.GetFiles(DOWNLOADS);
-            foreach(var file in files)
+            foreach (var file in files)
             {
                 if (file.Contains("Scarichi"))
                 {

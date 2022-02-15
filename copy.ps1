@@ -1,7 +1,7 @@
 if ($args.count -eq 2)
 {
-    $destination = es /ad $args[1] | fzf --height 50% --reverse
-    robocopy $args[0] $destination
+    $destination = es -sort date-accessed /ad $args[1] | ? {$_ -notmatch "Windows"} | ? {$_ -notmatch "Microsoft"} | fzf --height 20% --reverse
+    cp -force $args[0] $destination
     
     echo $destination
 

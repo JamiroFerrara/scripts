@@ -5,21 +5,37 @@ $dirs = ls -name
 foreach($dir in $dirs){
     cd $dir
     $bus = $dir
-    foreach($file in ls -name -recurse){
 
-        $time = get-date -format "yyMMddhhmm"
+    if (test-path -path "datitx")
+    {   }
+    else 
+    {
+        md datitx
+        Get-ChildItem -File | Move-Item -Destination "datitx"
+    }
+
+    cd datitx
+
+    $i = 0
+    foreach($file in ls -name ){
+        $time = (get-date).AddMinutes($i).ToString("yyMMddhhmm")
         $zero = "00"
         if ($bus.length -eq 3){
                     $zero = "000"     
                 }
         $name = $header + $time + $zero + $bus + ".dat"
 
-        if ($file -contains "trans_eterm.dat"){
-                rni trans_eterm.dat $name
+        if (($file -eq "temp_log.dat") -or ($file -eq "trans_eterm.dat") -or ($file -eq "trans.dat")){
+                rni $file $name
                 echo $name
+                $i++
                 }
         }
     cd ..
+    cd ..
     }
 
-lget *.dat (get-date -format "yyMM")
+Start-Sleep -s 1
+$date = (get-date).tostring("yyMMdd")
+$date = "TRANS$date"
+lget $date

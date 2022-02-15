@@ -1,9 +1,15 @@
 if ($args.Count -eq 1)
     {
-        $res = es -path ./ $args[0]
-        md $args[0]
-        cd $args[0]
+        echo "------------------"
+        echo "Local-Get Started --> $args" 
+        echo "------------------"
+
+        $term = $args[0]
+        $res = es -path ./ $term
+        echo $res
+
+        md $term
+        cd $term
         cp $res
-        cl
         l
     }

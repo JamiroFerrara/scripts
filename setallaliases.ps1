@@ -5,6 +5,7 @@ Set-Alias -Name f -Value 'C:\scripts\filter.ps1'
 #Base Helpers
 Set-Alias -Name l -Value 'C:\scripts\list.ps1'
 Set-Alias -Name vim -Value nvim
+Set-Alias -Name accept-pipe -Value 'C:\scripts\accept-pipe.ps1'
 
 #Firefox 
 Set-Alias openfirefox -Value 'C:\Program Files\Mozilla Firefox\firefox.exe'
@@ -25,7 +26,14 @@ Set-Alias -Name tncd -Value 'C:\Scripts\rdp-trento\tncd.ps1'
 Set-Alias -Name tnd -Value 'C:\Scripts\rdp-trento\deploy-update-valida.ps1'
 Set-Alias -Name tndep -Value 'C:\Scripts\rdp-trento\deploy-update-valida.ps1'
 Set-Alias -Name rcf -Value 'C:\Scripts\trento-recupero-cf\recupero-defaults.ps1'
+Set-Alias -Name rcfs -Value 'C:\Scripts\trento-recupero-cf\recupero-stazioni.ps1'
 Set-Alias -Name get-trans-dates -Value 'C:\Scripts\trento-trans-buster\get-trans-dates.ps1'
+Set-Alias -Name get-date-correction -Value 'C:\Scripts\trento-trans-buster\get-date-correction.ps1'
+Set-Alias -Name tbuster -Value 'C:\Scripts\trento-trans-buster\trans-buster.ps1'
+Set-Alias -Name tbus -Value 'C:\Scripts\trento-trans-buster\trans-buster.ps1'
+Set-Alias -Name fix-bus-codes -Value 'C:\Scripts\trento-trans-buster\fix-bus-codes.ps1'
+Set-Alias -Name remove-broken-lines -Value 'C:\Scripts\trento-trans-buster\remove-broken-lines.ps1'
+Set-Alias -Name trans-buster -Value 'C:\Scripts\trento-trans-buster\trans-buster.ps1'
 
 #RDP
 Set-Alias -Name rdp -Value 'C:\scripts\rdp-trento\rdp-trento.ps1'
@@ -174,6 +182,7 @@ Set-Alias -Name bookmarks -Value 'C:\scripts\bookmarks\bookmarks.ps1'
 Set-Alias -Name bm -Value 'C:\scripts\bookmarks\bookmarks.ps1'
 Set-Alias -Name youtube -Value 'C:\scripts\search-youtube.ps1'
 Set-Alias -Name yt -Value 'C:\scripts\youtube\search-youtube.ps1'
+Set-Alias -Name ytc -Value 'C:\scripts\youtube\search-youtube-channels.ps1'
 Set-Alias -Name lis -Value 'C:\scripts\list-installed-software.ps1'
 Set-Alias -Name listsoftware -Value 'C:\scripts\list-installed-software.ps1'
 Set-Alias -Name listtasks -Value 'C:\scripts\list-tasks.ps1'
@@ -199,6 +208,8 @@ Set-Alias -Name enable-powershell-remoting -Value 'C:\scripts\enable-powershell-
 Set-Alias -Name epr -Value 'C:\scripts\enable-powershell-remoting.ps1'
 Set-Alias -Name rem -Value 'C:\scripts\rem.ps1'
 Set-Alias -Name s -Value 'C:\scripts\search-the-web\search-the-web.ps1'
+Set-Alias -Name count -Value 'C:\scripts\count.ps1'
+Set-Alias -Name extract -Value 'C:\scripts\extract.ps1'
 
 #DBremen
 
@@ -244,6 +255,7 @@ Set-Alias -Name cf -Value 'C:\scripts\opencf.ps1'
 Set-Alias -Name dotfiles -Value 'C:\scripts\opendotfiles.ps1'
 Set-Alias -Name tserver -Value 'C:\scripts\tserver.ps1'
 Set-Alias -Name aliases -Value 'C:\scripts\aliases.ps1'
+Set-Alias -Name al -Value 'C:\scripts\aliases.ps1'
 
 #OpenAI
 Set-Alias -Name psh -Value 'C:\scripts\Open-Ai\PS-Helper.ps1'
@@ -253,3 +265,7 @@ Set-Alias -Name alexa -Value 'C:\scripts\Open-Ai\alexa.ps1'
 Set-Alias -Name matrix -Value 'C:\scripts\cmatrix.ps1'
 Set-Alias -Name pozzi -Value 'C:\scripts\pozzigape.ps1'
 
+#Audio  
+Set-Alias -Name normalize-all -Value 'C:\scripts\sox\normalize-all.ps1'
+Set-Alias -Name na -Value 'C:\scripts\sox\normalize-all.ps1'
+Set-Alias -Name pac -Value 'C:\scripts\sox\run-py-audio-classification.ps1'

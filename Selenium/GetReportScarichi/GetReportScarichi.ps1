@@ -1,2 +1,2 @@
 cd 'C:\Scripts\Selenium\GetReportScarichi\Selenium_ReportScarichi'
-run
+es -path ./ *.exe Selenium | ii

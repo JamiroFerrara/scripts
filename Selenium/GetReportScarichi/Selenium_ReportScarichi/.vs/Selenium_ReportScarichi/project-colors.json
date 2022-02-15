@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7713b0fc-3008-4dab-a9b8-a06ba26cf9f6": {
+      "ProjectGuid": "7713b0fc-3008-4dab-a9b8-a06ba26cf9f6",
+      "DisplayName": "Selenium_ReportScarichi",
+      "ColorIndex": 0
+    },
+    "caf60bd6-677e-4541-8673-e69e353b519b": {
+      "ProjectGuid": "caf60bd6-677e-4541-8673-e69e353b519b",
+      "DisplayName": "Selenium_ReportScarichi",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

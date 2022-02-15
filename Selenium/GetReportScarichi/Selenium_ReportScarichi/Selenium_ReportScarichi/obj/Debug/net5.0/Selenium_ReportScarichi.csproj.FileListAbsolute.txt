@@ -30,6 +30,7 @@ C:\Scripts\Selenium\GetReportScarichi\Selenium_ReportScarichi\Selenium_ReportSca
 C:\Scripts\Selenium\GetReportScarichi\Selenium_ReportScarichi\Selenium_ReportScarichi\obj\Debug\net5.0\Selenium_ReportScarichi.AssemblyInfoInputs.cache
 C:\Scripts\Selenium\GetReportScarichi\Selenium_ReportScarichi\Selenium_ReportScarichi\obj\Debug\net5.0\Selenium_ReportScarichi.AssemblyInfo.cs
 C:\Scripts\Selenium\GetReportScarichi\Selenium_ReportScarichi\Selenium_ReportScarichi\obj\Debug\net5.0\Selenium_ReportScarichi.csproj.CoreCompileInputs.cache
+C:\Scripts\Selenium\GetReportScarichi\Selenium_ReportScarichi\Selenium_ReportScarichi\obj\Debug\net5.0\Selenium_ReportScarichi.csproj.CopyComplete
 C:\Scripts\Selenium\GetReportScarichi\Selenium_ReportScarichi\Selenium_ReportScarichi\obj\Debug\net5.0\Selenium_ReportScarichi.dll
 C:\Scripts\Selenium\GetReportScarichi\Selenium_ReportScarichi\Selenium_ReportScarichi\obj\Debug\net5.0\ref\Selenium_ReportScarichi.dll
 C:\Scripts\Selenium\GetReportScarichi\Selenium_ReportScarichi\Selenium_ReportScarichi\obj\Debug\net5.0\Selenium_ReportScarichi.pdb
