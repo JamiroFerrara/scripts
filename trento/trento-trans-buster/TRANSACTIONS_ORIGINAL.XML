@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by ConvDatToXml v1.1 - Soc. T.S.F. SpA - developer De Marchi Alessandro a.demarchi@tsf.it -->
+<Transaction DateTime="19/02/2022 20.19.34" Bus="000112" FileName="trans2202192018000112.dat" cod_acq="8839897">
+  <BusEquipmentRecord BERDateTime="16/02/2022 14:13:48" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="0" BERRelease="0" BERFix="0" PDR_BERDateTime="16/02/2022 14:13:48" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
+  <BusEquipmentRecord BERDateTime="16/02/2022 14:13:48" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="641" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="16/02/2022 14:13:48" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+  <BusEquipmentRecord BERDateTime="16/02/2022 16:46:29" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="0" BERRelease="0" BERFix="0" PDR_BERDateTime="16/02/2022 16:46:29" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
+  <BusEquipmentRecord BERDateTime="16/02/2022 16:46:29" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="641" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="16/02/2022 16:46:29" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+  <BusEquipmentRecord BERDateTime="16/02/2022 18:13:27" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="0" BERRelease="0" BERFix="0" PDR_BERDateTime="16/02/2022 18:13:27" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
+  <BusEquipmentRecord BERDateTime="16/02/2022 18:13:27" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="641" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="16/02/2022 18:13:27" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+  <BusEquipmentRecord BERDateTime="17/02/2022 00:13:20" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="0" BERRelease="0" BERFix="0" PDR_BERDateTime="17/02/2022 00:13:20" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
+  <BusEquipmentRecord BERDateTime="17/02/2022 00:13:20" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="641" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="17/02/2022 00:13:20" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+  <BusEquipmentRecord BERDateTime="17/02/2022 01:13:15" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="0" BERRelease="0" BERFix="0" PDR_BERDateTime="17/02/2022 01:13:15" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
+  <BusEquipmentRecord BERDateTime="17/02/2022 01:13:15" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="641" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="17/02/2022 01:13:15" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+  <BusEquipmentRecord BERDateTime="17/02/2022 02:13:09" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="0" BERRelease="0" BERFix="0" PDR_BERDateTime="17/02/2022 02:13:09" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
+  <BusEquipmentRecord BERDateTime="17/02/2022 02:13:09" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="641" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="17/02/2022 02:13:09" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+  <BusEquipmentRecord BERDateTime="17/02/2022 03:13:05" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="0" BERRelease="0" BERFix="0" PDR_BERDateTime="17/02/2022 03:13:05" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
+  <BusEquipmentRecord BERDateTime="17/02/2022 03:13:05" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="641" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="17/02/2022 03:13:05" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+  <BusEquipmentRecord BERDateTime="17/02/2022 04:14:00" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="0" BERRelease="0" BERFix="0" PDR_BERDateTime="17/02/2022 04:14:00" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
+  <BusEquipmentRecord BERDateTime="17/02/2022 04:14:00" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="641" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="17/02/2022 04:14:00" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+  <BusEquipmentRecord BERDateTime="17/02/2022 05:13:55" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="0" BERRelease="0" BERFix="0" PDR_BERDateTime="17/02/2022 05:13:55" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
+  <BusEquipmentRecord BERDateTime="17/02/2022 05:13:55" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="641" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="17/02/2022 05:13:55" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+  <BusEquipmentRecord BERDateTime="18/02/2022 00:13:49" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="0" BERRelease="0" BERFix="0" PDR_BERDateTime="18/02/2022 00:13:49" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
+  <BusEquipmentRecord BERDateTime="18/02/2022 00:13:49" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="641" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="18/02/2022 00:13:49" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+  <BusEquipmentRecord BERDateTime="18/02/2022 00:23:00" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="641" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="18/02/2022 00:23:00" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+  <DbEquipmentRecordZip DBZDateTime="18/02/2022 00:23:00" DBZLengthVar="8" DBZDbCode="35" DBZDbStruct="0" DBZTipoCar="1" DBZGruppo="61" DBZUpdateTime="18/02/2022 00:00:00" PDR_BERDateTime="18/02/2022 00:23:00" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+  <BusEquipmentRecord BERDateTime="18/02/2022 01:13:43" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="0" BERRelease="0" BERFix="0" PDR_BERDateTime="18/02/2022 01:13:43" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
+  <BusEquipmentRecord BERDateTime="18/02/2022 01:13:43" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="641" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="18/02/2022 01:13:43" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+  <BusEquipmentRecord BERDateTime="18/02/2022 02:13:38" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="0" BERRelease="0" BERFix="0" PDR_BERDateTime="18/02/2022 02:13:38" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
+  <BusEquipmentRecord BERDateTime="18/02/2022 02:13:38" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="641" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="18/02/2022 02:13:38" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+  <BusEquipmentRecord BERDateTime="19/02/2022 06:19:50" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="0" BERRelease="0" BERFix="0" PDR_BERDateTime="19/02/2022 06:19:50" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
+  <BusEquipmentRecord BERDateTime="19/02/2022 06:19:50" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="641" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="19/02/2022 06:19:50" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+  <BusEquipmentRecord BERDateTime="19/02/2022 06:28:30" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="0" BERRelease="0" BERFix="0" PDR_BERDateTime="19/02/2022 06:28:30" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
+  <BusEquipmentRecord BERDateTime="19/02/2022 06:28:30" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="641" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="19/02/2022 06:28:30" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+  <BusEquipmentRecord BERDateTime="19/02/2022 06:50:15" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="43" BERRelease="9" BERFix="86" PDR_BERDateTime="19/02/2022 06:50:15" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
+  <BusEquipmentRecord BERDateTime="19/02/2022 06:50:15" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="641" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="19/02/2022 06:50:15" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+  <StartOfDuty SODDateTime="19/02/2022 06:50:15" SODLengthVar="7" SODDutyCode="8506" SODDriverNo="302067" SODInvalidDutyNo="0" PDR_BERDateTime="19/02/2022 06:50:15" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+    <CodBusRecord CBRDateTime="19/02/2022 06:50:15" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="19/02/2022 06:50:15" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+    <StartOfTrip SOTDateTime="19/02/2022 06:50:44" SOTLengthVar="16" SOTRouteCode="0025858" SOTTripId="19914" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 06:50:15" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <EOTDateTime>19/02/2022 07:00:57</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0025858</EOTRouteCode>
+      <EOTTripId>19914</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 07:00:58" SOTLengthVar="16" SOTRouteCode="0030070" SOTTripId="31826" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 06:50:15" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <EOTDateTime>19/02/2022 07:29:13</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0030070</EOTRouteCode>
+      <EOTTripId>31826</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 07:29:13" SOTLengthVar="16" SOTRouteCode="0030072" SOTTripId="31830" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 06:50:15" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <EOTDateTime>19/02/2022 07:52:18</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0030072</EOTRouteCode>
+      <EOTTripId>31830</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 07:52:18" SOTLengthVar="16" SOTRouteCode="0026867" SOTTripId="19607" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 06:50:15" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <EOTDateTime>19/02/2022 08:21:34</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026867</EOTRouteCode>
+      <EOTTripId>19607</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 08:21:34" SOTLengthVar="16" SOTRouteCode="0026869" SOTTripId="19637" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 06:50:15" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <EOTDateTime>19/02/2022 08:33:03</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026869</EOTRouteCode>
+      <EOTTripId>19637</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <SessionOpening SORDateTime="19/02/2022 06:50:44" SORLengthVar="8" SORSessionNo="1611" SORCashValue="1006590" PDR_BERDateTime="19/02/2022 06:50:15" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <SCRDateTime>19/02/2022 08:30:32</SCRDateTime>
+      <SCRLengthVar>8</SCRLengthVar>
+      <SCRSessionNo>1611</SCRSessionNo>
+      <SCRCashValue>1006590</SCRCashValue>
+    </SessionOpening>
+    <EODDateTime>19/02/2022 08:34:04</EODDateTime>
+    <EODLengthVar>3</EODLengthVar>
+    <EODDutyNo>8506</EODDutyNo>
+    <EODEndMode>2</EODEndMode>
+  </StartOfDuty>
+  <BusEquipmentRecord BERDateTime="19/02/2022 08:33:23" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="43" BERRelease="9" BERFix="86" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
+  <BusEquipmentRecord BERDateTime="19/02/2022 08:33:23" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="641" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+  <StartOfDuty SODDateTime="19/02/2022 08:33:23" SODLengthVar="7" SODDutyCode="8506" SODDriverNo="302551" SODInvalidDutyNo="0" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+    <CodBusRecord CBRDateTime="19/02/2022 08:33:23" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+    <StartOfTrip SOTDateTime="19/02/2022 08:33:33" SOTLengthVar="16" SOTRouteCode="0026869" SOTTripId="19637" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <EOTDateTime>19/02/2022 08:45:27</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026869</EOTRouteCode>
+      <EOTTripId>19637</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 08:45:27" SOTLengthVar="16" SOTRouteCode="0026867" SOTTripId="19608" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <EOTDateTime>19/02/2022 09:12:44</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026867</EOTRouteCode>
+      <EOTTripId>19608</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 09:12:44" SOTLengthVar="16" SOTRouteCode="0026869" SOTTripId="19638" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <ChangeDriver CDRDateTime="19/02/2022 09:21:49" CDRLengthVar="4" CDRDriverNo="303933" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+      <EOTDateTime>19/02/2022 09:36:21</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026869</EOTRouteCode>
+      <EOTTripId>19638</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 09:36:21" SOTLengthVar="16" SOTRouteCode="0026867" SOTTripId="19609" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <ChangeDriver CDRDateTime="19/02/2022 10:10:12" CDRLengthVar="4" CDRDriverNo="302133" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+      <EOTDateTime>19/02/2022 10:16:10</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026867</EOTRouteCode>
+      <EOTTripId>19609</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 10:16:10" SOTLengthVar="16" SOTRouteCode="0026869" SOTTripId="19639" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <EOTDateTime>19/02/2022 10:39:45</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026869</EOTRouteCode>
+      <EOTTripId>19639</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 10:39:45" SOTLengthVar="16" SOTRouteCode="0026867" SOTTripId="19610" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <ChangeDriver CDRDateTime="19/02/2022 11:06:24" CDRLengthVar="4" CDRDriverNo="302320" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+      <EOTDateTime>19/02/2022 11:13:35</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026867</EOTRouteCode>
+      <EOTTripId>19610</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 11:13:36" SOTLengthVar="16" SOTRouteCode="0026869" SOTTripId="19640" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <EOTDateTime>19/02/2022 11:34:51</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026869</EOTRouteCode>
+      <EOTTripId>19640</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 11:34:52" SOTLengthVar="16" SOTRouteCode="0026867" SOTTripId="19611" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <ChangeDriver CDRDateTime="19/02/2022 12:07:22" CDRLengthVar="4" CDRDriverNo="302282" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+      <EOTDateTime>19/02/2022 12:14:11</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026867</EOTRouteCode>
+      <EOTTripId>19611</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 12:14:12" SOTLengthVar="16" SOTRouteCode="0026869" SOTTripId="19641" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <EOTDateTime>19/02/2022 12:34:10</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026869</EOTRouteCode>
+      <EOTTripId>19641</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 12:34:11" SOTLengthVar="16" SOTRouteCode="0026867" SOTTripId="19614" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <EOTDateTime>19/02/2022 13:16:01</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026867</EOTRouteCode>
+      <EOTTripId>19614</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 13:16:02" SOTLengthVar="16" SOTRouteCode="0026869" SOTTripId="19642" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <ChangeDriver CDRDateTime="19/02/2022 13:26:01" CDRLengthVar="4" CDRDriverNo="304106" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+      <EOTDateTime>19/02/2022 13:40:11</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026869</EOTRouteCode>
+      <EOTTripId>19642</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 13:40:11" SOTLengthVar="16" SOTRouteCode="0026867" SOTTripId="19615" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <EOTDateTime>19/02/2022 14:09:41</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026867</EOTRouteCode>
+      <EOTTripId>19615</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 14:09:41" SOTLengthVar="16" SOTRouteCode="0026869" SOTTripId="19643" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <EOTDateTime>19/02/2022 14:35:09</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026869</EOTRouteCode>
+      <EOTTripId>19643</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 14:35:09" SOTLengthVar="16" SOTRouteCode="0030070" SOTTripId="31827" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <EOTDateTime>19/02/2022 15:10:21</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0030070</EOTRouteCode>
+      <EOTTripId>31827</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 15:10:21" SOTLengthVar="16" SOTRouteCode="0030072" SOTTripId="31831" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <Exceptions EXRDateTime="19/02/2022 15:24:29" EXRLengthVar="2" EXRExceptionCode="5" EXROnOffFlag="0" PDR_BERDateTime="19/02/2022 08:33:23" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+      <BusEquipmentRecord BERDateTime="19/02/2022 15:24:29" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="43" BERRelease="9" BERFix="86" PDR_BERDateTime="19/02/2022 15:24:29" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
+      <BusEquipmentRecord BERDateTime="19/02/2022 15:24:29" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="641" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="19/02/2022 15:24:29" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+      <BusEquipmentRecord BERDateTime="19/02/2022 15:28:15" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="0" BERRelease="0" BERFix="0" PDR_BERDateTime="19/02/2022 15:28:15" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
+      <BusEquipmentRecord BERDateTime="19/02/2022 15:28:15" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="641" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="19/02/2022 15:28:15" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+      <BusEquipmentRecord BERDateTime="19/02/2022 15:29:12" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="43" BERRelease="9" BERFix="86" PDR_BERDateTime="19/02/2022 15:29:12" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
+      <BusEquipmentRecord BERDateTime="19/02/2022 15:29:12" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="641" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="19/02/2022 15:29:12" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+      <EOTDateTime>19/02/2022 15:29:12</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0030072</EOTRouteCode>
+      <EOTTripId>31831</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <EODDateTime>19/02/2022 15:29:12</EODDateTime>
+    <EODLengthVar>3</EODLengthVar>
+    <EODDutyNo>8506</EODDutyNo>
+    <EODEndMode>3</EODEndMode>
+  </StartOfDuty>
+  <StartOfDuty SODDateTime="19/02/2022 07:11:40" SODLengthVar="7" SODDutyCode="8506" SODDriverNo="303691" SODInvalidDutyNo="0" PDR_BERDateTime="19/02/2022 15:29:12" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+    <CodBusRecord CBRDateTime="19/02/2022 07:11:40" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="19/02/2022 15:29:12" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+    <StartOfTrip SOTDateTime="19/02/2022 07:11:40" SOTLengthVar="16" SOTRouteCode="0030072" SOTTripId="31831" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 15:29:12" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <EOTDateTime>19/02/2022 07:11:40</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0030072</EOTRouteCode>
+      <EOTTripId>31831</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 07:11:40" SOTLengthVar="16" SOTRouteCode="0026867" SOTTripId="19618" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 15:29:12" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <EOTDateTime>19/02/2022 07:11:40</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026867</EOTRouteCode>
+      <EOTTripId>19618</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 07:11:40" SOTLengthVar="16" SOTRouteCode="0026869" SOTTripId="19645" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 15:29:12" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <EOTDateTime>19/02/2022 07:11:40</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026869</EOTRouteCode>
+      <EOTTripId>19645</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 07:11:40" SOTLengthVar="16" SOTRouteCode="0026867" SOTTripId="19619" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 15:29:12" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <EOTDateTime>19/02/2022 07:11:40</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026867</EOTRouteCode>
+      <EOTTripId>19619</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 07:11:40" SOTLengthVar="16" SOTRouteCode="0026869" SOTTripId="19646" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 15:29:12" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <ChangeDriver CDRDateTime="19/02/2022 07:11:40" CDRLengthVar="4" CDRDriverNo="303657" PDR_BERDateTime="19/02/2022 15:29:12" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+      <EOTDateTime>19/02/2022 07:11:40</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026869</EOTRouteCode>
+      <EOTTripId>19646</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 07:11:40" SOTLengthVar="16" SOTRouteCode="0026867" SOTTripId="19620" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 15:29:12" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <EOTDateTime>19/02/2022 07:11:40</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026867</EOTRouteCode>
+      <EOTTripId>19620</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 07:11:40" SOTLengthVar="16" SOTRouteCode="0026869" SOTTripId="19647" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 15:29:12" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <EOTDateTime>19/02/2022 07:11:40</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026869</EOTRouteCode>
+      <EOTTripId>19647</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 07:11:40" SOTLengthVar="16" SOTRouteCode="0026867" SOTTripId="19621" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 15:29:12" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <EOTDateTime>19/02/2022 07:11:40</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026867</EOTRouteCode>
+      <EOTTripId>19621</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 07:11:40" SOTLengthVar="16" SOTRouteCode="0026869" SOTTripId="19648" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 15:29:12" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <ChangeDriver CDRDateTime="19/02/2022 07:11:40" CDRLengthVar="4" CDRDriverNo="304304" PDR_BERDateTime="19/02/2022 15:29:12" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641"/>
+      <EOTDateTime>19/02/2022 07:11:40</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026869</EOTRouteCode>
+      <EOTTripId>19648</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 07:11:40" SOTLengthVar="16" SOTRouteCode="0026868" SOTTripId="19634" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 15:29:12" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <EOTDateTime>19/02/2022 07:11:40</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026868</EOTRouteCode>
+      <EOTTripId>19634</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 07:11:40" SOTLengthVar="16" SOTRouteCode="0026870" SOTTripId="19667" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 15:29:12" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <EOTDateTime>19/02/2022 07:11:40</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0026870</EOTRouteCode>
+      <EOTTripId>19667</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <StartOfTrip SOTDateTime="19/02/2022 07:11:40" SOTLengthVar="16" SOTRouteCode="0025859" SOTTripId="19915" SOTLineCode="Rv B" SOTInvalid="0" PDR_BERDateTime="19/02/2022 15:29:12" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <EOTDateTime>19/02/2022 07:11:40</EOTDateTime>
+      <EOTLengthVar>15</EOTLengthVar>
+      <EOTRouteCode>0025859</EOTRouteCode>
+      <EOTTripId>19915</EOTTripId>
+      <EOTLineCode>Rv B</EOTLineCode>
+    </StartOfTrip>
+    <SessionOpening SORDateTime="19/02/2022 07:11:40" SORLengthVar="8" SORSessionNo="1619" SORCashValue="1006590" PDR_BERDateTime="19/02/2022 15:29:12" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <SCRDateTime>19/02/2022 07:11:40</SCRDateTime>
+      <SCRLengthVar>8</SCRLengthVar>
+      <SCRSessionNo>1619</SCRSessionNo>
+      <SCRCashValue>1006590</SCRCashValue>
+    </SessionOpening>
+    <SessionOpening SORDateTime="19/02/2022 07:11:40" SORLengthVar="8" SORSessionNo="1620" SORCashValue="1006590" PDR_BERDateTime="19/02/2022 15:29:12" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <SCRDateTime>19/02/2022 07:11:40</SCRDateTime>
+      <SCRLengthVar>8</SCRLengthVar>
+      <SCRSessionNo>1620</SCRSessionNo>
+      <SCRCashValue>1006590</SCRCashValue>
+    </SessionOpening>
+    <SessionOpening SORDateTime="19/02/2022 07:11:40" SORLengthVar="8" SORSessionNo="1621" SORCashValue="1006590" PDR_BERDateTime="19/02/2022 15:29:12" PDR_BEREquipmentType="4" PDR_BEREquipmentId="641">
+      <SCRDateTime>19/02/2022 07:11:40</SCRDateTime>
+      <SCRLengthVar>8</SCRLengthVar>
+      <SCRSessionNo>1621</SCRSessionNo>
+      <SCRCashValue>1006590</SCRCashValue>
+    </SessionOpening>
+    <EODDateTime>19/02/2022 07:11:40</EODDateTime>
+    <EODLengthVar>3</EODLengthVar>
+    <EODDutyNo>8506</EODDutyNo>
+    <EODEndMode>2</EODEndMode>
+  </StartOfDuty>
+  <BusEquipmentRecord BERDateTime="16/02/2022 13:00:01" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="484" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="16/02/2022 13:00:01" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <CodBusRecord CBRDateTime="16/02/2022 13:00:01" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="16/02/2022 13:00:01" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <BusEquipmentRecord BERDateTime="16/02/2022 14:14:14" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="484" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="16/02/2022 14:14:14" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="16/02/2022 14:14:15" EXRLengthVar="2" EXRExceptionCode="111" EXROnOffFlag="0" PDR_BERDateTime="16/02/2022 14:14:14" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="16/02/2022 14:14:15" EXRLengthVar="2" EXRExceptionCode="112" EXROnOffFlag="0" PDR_BERDateTime="16/02/2022 14:14:14" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <CodBusRecord CBRDateTime="16/02/2022 14:14:15" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="16/02/2022 14:14:14" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <BusEquipmentRecord BERDateTime="16/02/2022 16:46:54" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="484" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="16/02/2022 16:46:54" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="16/02/2022 16:46:54" EXRLengthVar="2" EXRExceptionCode="111" EXROnOffFlag="0" PDR_BERDateTime="16/02/2022 16:46:54" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="16/02/2022 16:46:54" EXRLengthVar="2" EXRExceptionCode="112" EXROnOffFlag="0" PDR_BERDateTime="16/02/2022 16:46:54" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <CodBusRecord CBRDateTime="16/02/2022 16:46:55" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="16/02/2022 16:46:54" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <BusEquipmentRecord BERDateTime="16/02/2022 18:13:52" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="484" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="16/02/2022 18:13:52" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="16/02/2022 18:13:53" EXRLengthVar="2" EXRExceptionCode="111" EXROnOffFlag="0" PDR_BERDateTime="16/02/2022 18:13:52" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="16/02/2022 18:13:53" EXRLengthVar="2" EXRExceptionCode="112" EXROnOffFlag="0" PDR_BERDateTime="16/02/2022 18:13:52" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <CodBusRecord CBRDateTime="16/02/2022 18:13:53" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="16/02/2022 18:13:52" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <BusEquipmentRecord BERDateTime="17/02/2022 00:13:46" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="484" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="17/02/2022 00:13:46" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="17/02/2022 00:13:46" EXRLengthVar="2" EXRExceptionCode="111" EXROnOffFlag="0" PDR_BERDateTime="17/02/2022 00:13:46" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="17/02/2022 00:13:46" EXRLengthVar="2" EXRExceptionCode="112" EXROnOffFlag="0" PDR_BERDateTime="17/02/2022 00:13:46" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <CodBusRecord CBRDateTime="17/02/2022 00:13:46" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="17/02/2022 00:13:46" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <BusEquipmentRecord BERDateTime="17/02/2022 01:13:39" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="484" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="17/02/2022 01:13:39" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="17/02/2022 01:13:40" EXRLengthVar="2" EXRExceptionCode="111" EXROnOffFlag="0" PDR_BERDateTime="17/02/2022 01:13:39" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="17/02/2022 01:13:40" EXRLengthVar="2" EXRExceptionCode="112" EXROnOffFlag="0" PDR_BERDateTime="17/02/2022 01:13:39" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <CodBusRecord CBRDateTime="17/02/2022 01:13:40" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="17/02/2022 01:13:39" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <BusEquipmentRecord BERDateTime="17/02/2022 02:13:34" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="484" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="17/02/2022 02:13:34" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="17/02/2022 02:13:35" EXRLengthVar="2" EXRExceptionCode="111" EXROnOffFlag="0" PDR_BERDateTime="17/02/2022 02:13:34" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="17/02/2022 02:13:35" EXRLengthVar="2" EXRExceptionCode="112" EXROnOffFlag="0" PDR_BERDateTime="17/02/2022 02:13:34" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <CodBusRecord CBRDateTime="17/02/2022 02:13:35" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="17/02/2022 02:13:34" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <BusEquipmentRecord BERDateTime="17/02/2022 03:13:31" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="484" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="17/02/2022 03:13:31" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="17/02/2022 03:13:32" EXRLengthVar="2" EXRExceptionCode="111" EXROnOffFlag="0" PDR_BERDateTime="17/02/2022 03:13:31" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="17/02/2022 03:13:32" EXRLengthVar="2" EXRExceptionCode="112" EXROnOffFlag="0" PDR_BERDateTime="17/02/2022 03:13:31" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <CodBusRecord CBRDateTime="17/02/2022 03:13:32" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="17/02/2022 03:13:31" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <BusEquipmentRecord BERDateTime="17/02/2022 04:14:25" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="484" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="17/02/2022 04:14:25" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="17/02/2022 04:14:26" EXRLengthVar="2" EXRExceptionCode="111" EXROnOffFlag="0" PDR_BERDateTime="17/02/2022 04:14:25" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="17/02/2022 04:14:26" EXRLengthVar="2" EXRExceptionCode="112" EXROnOffFlag="0" PDR_BERDateTime="17/02/2022 04:14:25" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <CodBusRecord CBRDateTime="17/02/2022 04:14:26" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="17/02/2022 04:14:25" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <BusEquipmentRecord BERDateTime="17/02/2022 05:14:20" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="484" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="17/02/2022 05:14:20" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="17/02/2022 05:14:21" EXRLengthVar="2" EXRExceptionCode="111" EXROnOffFlag="0" PDR_BERDateTime="17/02/2022 05:14:20" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="17/02/2022 05:14:21" EXRLengthVar="2" EXRExceptionCode="112" EXROnOffFlag="0" PDR_BERDateTime="17/02/2022 05:14:20" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <CodBusRecord CBRDateTime="17/02/2022 05:14:21" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="17/02/2022 05:14:20" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <BusEquipmentRecord BERDateTime="18/02/2022 00:14:15" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="484" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="18/02/2022 00:14:15" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="18/02/2022 00:14:16" EXRLengthVar="2" EXRExceptionCode="111" EXROnOffFlag="0" PDR_BERDateTime="18/02/2022 00:14:15" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="18/02/2022 00:14:16" EXRLengthVar="2" EXRExceptionCode="112" EXROnOffFlag="0" PDR_BERDateTime="18/02/2022 00:14:15" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <CodBusRecord CBRDateTime="18/02/2022 00:14:16" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="18/02/2022 00:14:15" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <BusEquipmentRecord BERDateTime="18/02/2022 01:14:05" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="484" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="18/02/2022 01:14:05" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="18/02/2022 01:14:06" EXRLengthVar="2" EXRExceptionCode="111" EXROnOffFlag="0" PDR_BERDateTime="18/02/2022 01:14:05" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="18/02/2022 01:14:06" EXRLengthVar="2" EXRExceptionCode="112" EXROnOffFlag="0" PDR_BERDateTime="18/02/2022 01:14:05" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <CodBusRecord CBRDateTime="18/02/2022 01:14:06" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="18/02/2022 01:14:05" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <BusEquipmentRecord BERDateTime="18/02/2022 02:14:02" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="484" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="18/02/2022 02:14:02" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="18/02/2022 02:14:03" EXRLengthVar="2" EXRExceptionCode="111" EXROnOffFlag="0" PDR_BERDateTime="18/02/2022 02:14:02" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="18/02/2022 02:14:03" EXRLengthVar="2" EXRExceptionCode="112" EXROnOffFlag="0" PDR_BERDateTime="18/02/2022 02:14:02" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <CodBusRecord CBRDateTime="18/02/2022 02:14:03" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="18/02/2022 02:14:02" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <BusEquipmentRecord BERDateTime="19/02/2022 06:20:15" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="484" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="19/02/2022 06:20:15" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="19/02/2022 06:20:16" EXRLengthVar="2" EXRExceptionCode="111" EXROnOffFlag="0" PDR_BERDateTime="19/02/2022 06:20:15" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="19/02/2022 06:20:16" EXRLengthVar="2" EXRExceptionCode="112" EXROnOffFlag="0" PDR_BERDateTime="19/02/2022 06:20:15" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <CodBusRecord CBRDateTime="19/02/2022 06:20:16" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="19/02/2022 06:20:15" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <BusEquipmentRecord BERDateTime="19/02/2022 06:28:53" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="484" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="19/02/2022 06:28:54" EXRLengthVar="2" EXRExceptionCode="111" EXROnOffFlag="0" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="19/02/2022 06:28:54" EXRLengthVar="2" EXRExceptionCode="112" EXROnOffFlag="0" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <CodBusRecord CBRDateTime="19/02/2022 06:28:54" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 07:25:23" TTRLengthVar="31" TTRCardNo="525645" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0030070" TTRTripId="31826" TTRStopNo="43481" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1667" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 07:34:34" TTRLengthVar="31" TTRCardNo="471218" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0030072" TTRTripId="31830" TTRStopNo="43581" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1661" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 07:38:25" TTRLengthVar="31" TTRCardNo="172452" TTRContractId="38" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="9" TTRRouteCode="0030072" TTRTripId="31830" TTRStopNo="43483" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="23/02/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1743" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 07:41:11" TTRLengthVar="31" TTRCardNo="395579" TTRContractId="200" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="9" TTRRouteCode="0030072" TTRTripId="31830" TTRStopNo="43535" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="11/03/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1494" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 08:03:09" TTRLengthVar="31" TTRCardNo="362255" TTRContractId="200" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="9" TTRRouteCode="0026867" TTRTripId="19607" TTRStopNo="44490" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="16/03/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1829" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 08:06:09" TTRLengthVar="31" TTRCardNo="395553" TTRContractId="38" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="9" TTRRouteCode="0026867" TTRTripId="19607" TTRStopNo="44483" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="02/03/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1673" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 08:08:20" TTRLengthVar="31" TTRCardNo="435971" TTRContractId="117" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="7" TTRRouteCode="0026867" TTRTripId="19607" TTRStopNo="43492" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/01/2024 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="2027" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <ContractViolationRecordV3 CV3DateTime="19/02/2022 08:17:48" CV3LengthVar="120" CV3CardNo="435971" CV3RouteCode="0026867" CV3TripId="19607" CV3FermataSalita="43492" CV3FermataDiscesa="43492" CV3CardViolationType="2" CV3ContractId1="0" CV3ContractViolationType1="0" CV3ContractViolationData1="" CV3ContractId2="0" CV3ContractViolationType2="0" CV3ContractViolationData2="" CV3ContractId3="0" CV3ContractViolationType3="0" CV3ContractViolationData3="" CV3ContractId4="0" CV3ContractViolationType4="0" CV3ContractViolationData4="" CV3ContractId5="0" CV3ContractViolationType5="0" CV3ContractViolationData5="" CV3ContractId6="0" CV3ContractViolationType6="0" CV3ContractViolationData6="" CV3ContractId7="0" CV3ContractViolationType7="0" CV3ContractViolationData7="" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 08:17:57" TTRLengthVar="31" TTRCardNo="402599" TTRContractId="97" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="9" TTRRouteCode="0026867" TTRTripId="19607" TTRStopNo="43481" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="10/05/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1836" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 08:27:43" TTRLengthVar="31" TTRCardNo="91056" TTRContractId="117" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="7" TTRRouteCode="0026869" TTRTripId="19637" TTRStopNo="43581" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/03/2024 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1813" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 09:12:55" TTRLengthVar="31" TTRCardNo="29189" TTRContractId="117" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="7" TTRRouteCode="0026869" TTRTripId="19638" TTRStopNo="43514" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="01/03/2024 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1950" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 09:17:37" TTRLengthVar="31" TTRCardNo="453243" TTRContractId="117" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="7" TTRRouteCode="0026869" TTRTripId="19638" TTRStopNo="43581" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="22/04/2024 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1931" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 09:17:39" TTRLengthVar="31" TTRCardNo="399654" TTRContractId="38" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="9" TTRRouteCode="0026869" TTRTripId="19638" TTRStopNo="43581" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="18/03/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1380" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 09:17:42" TTRLengthVar="31" TTRCardNo="436007" TTRContractId="117" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="7" TTRRouteCode="0026869" TTRTripId="19638" TTRStopNo="43581" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="22/10/2026 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1750" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 09:26:43" TTRLengthVar="31" TTRCardNo="524477" TTRContractId="39" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="9" TTRRouteCode="0026869" TTRTripId="19638" TTRStopNo="43535" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="14/03/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1643" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 09:28:07" TTRLengthVar="31" TTRCardNo="438294" TTRContractId="117" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="7" TTRRouteCode="0026869" TTRTripId="19638" TTRStopNo="44484" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="17/02/2024 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1805" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 10:11:23" TTRLengthVar="31" TTRCardNo="436188" TTRContractId="117" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="7" TTRRouteCode="0026867" TTRTripId="19609" TTRStopNo="43481" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="08/02/2024 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="2130" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 10:11:25" TTRLengthVar="31" TTRCardNo="453243" TTRContractId="117" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="7" TTRRouteCode="0026867" TTRTripId="19609" TTRStopNo="43481" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="22/04/2024 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="2055" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 10:17:12" TTRLengthVar="31" TTRCardNo="465772" TTRContractId="117" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="7" TTRRouteCode="0026869" TTRTripId="19639" TTRStopNo="46110" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="06/02/2024 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1825" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 10:21:41" TTRLengthVar="31" TTRCardNo="313473" TTRContractId="117" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="7" TTRRouteCode="0026869" TTRTripId="19639" TTRStopNo="43574" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="02/05/2024 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1700" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 10:21:45" TTRLengthVar="31" TTRCardNo="31297" TTRContractId="117" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="7" TTRRouteCode="0026869" TTRTripId="19639" TTRStopNo="43574" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="07/04/2024 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1404" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <PaperCancellerTransaction PCTDateTime="19/02/2022 10:22:54" PCTLengthVar="11" PCTRouteCode="0026869" PCTTripId="19639" PCTStopNo="43581" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <PaperCancellerTransaction PCTDateTime="19/02/2022 10:23:18" PCTLengthVar="11" PCTRouteCode="0026869" PCTTripId="19639" PCTStopNo="43581" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 11:10:27" TTRLengthVar="31" TTRCardNo="465772" TTRContractId="117" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="7" TTRRouteCode="0026867" TTRTripId="19610" TTRStopNo="43481" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="06/02/2024 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1970" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 11:10:30" TTRLengthVar="31" TTRCardNo="436007" TTRContractId="117" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="7" TTRRouteCode="0026867" TTRTripId="19610" TTRStopNo="43481" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="22/10/2026 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1875" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <ContractViolationRecordV3 CV3DateTime="19/02/2022 11:53:11" CV3LengthVar="120" CV3CardNo="493352" CV3RouteCode="0026867" CV3TripId="19611" CV3FermataSalita="44490" CV3FermataDiscesa="44490" CV3CardViolationType="21" CV3CardViolationData.CD.LastCommand="11" CV3CardViolationData.CD.Status="0" CV3CardViolationData.CD.Error="0000" CV3ContractId1="0" CV3ContractViolationType1="0" CV3ContractViolationData1="" CV3ContractId2="0" CV3ContractViolationType2="0" CV3ContractViolationData2="" CV3ContractId3="0" CV3ContractViolationType3="0" CV3ContractViolationData3="" CV3ContractId4="0" CV3ContractViolationType4="0" CV3ContractViolationData4="" CV3ContractId5="0" CV3ContractViolationType5="0" CV3ContractViolationData5="" CV3ContractId6="0" CV3ContractViolationType6="0" CV3ContractViolationData6="" CV3ContractId7="0" CV3ContractViolationType7="0" CV3ContractViolationData7="" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <ContractViolationRecordV3 CV3DateTime="19/02/2022 11:53:14" CV3LengthVar="120" CV3CardNo="493352" CV3RouteCode="0026867" CV3TripId="19611" CV3FermataSalita="44490" CV3FermataDiscesa="44490" CV3CardViolationType="21" CV3CardViolationData.CD.LastCommand="11" CV3CardViolationData.CD.Status="0" CV3CardViolationData.CD.Error="0000" CV3ContractId1="0" CV3ContractViolationType1="0" CV3ContractViolationData1="" CV3ContractId2="0" CV3ContractViolationType2="0" CV3ContractViolationData2="" CV3ContractId3="0" CV3ContractViolationType3="0" CV3ContractViolationData3="" CV3ContractId4="0" CV3ContractViolationType4="0" CV3ContractViolationData4="" CV3ContractId5="0" CV3ContractViolationType5="0" CV3ContractViolationData5="" CV3ContractId6="0" CV3ContractViolationType6="0" CV3ContractViolationData6="" CV3ContractId7="0" CV3ContractViolationType7="0" CV3ContractViolationData7="" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <ContractViolationRecordV3 CV3DateTime="19/02/2022 11:53:17" CV3LengthVar="120" CV3CardNo="493352" CV3RouteCode="0026867" CV3TripId="19611" CV3FermataSalita="44490" CV3FermataDiscesa="44490" CV3CardViolationType="0" CV3CardViolationData="" CV3ContractId1="0" CV3ContractViolationType1="0" CV3ContractViolationData1="" CV3ContractId2="0" CV3ContractViolationType2="0" CV3ContractViolationData2="" CV3ContractId3="0" CV3ContractViolationType3="0" CV3ContractViolationData3="" CV3ContractId4="0" CV3ContractViolationType4="0" CV3ContractViolationData4="" CV3ContractId5="0" CV3ContractViolationType5="0" CV3ContractViolationData5="" CV3ContractId6="0" CV3ContractViolationType6="0" CV3ContractViolationData6="" CV3ContractId7="0" CV3ContractViolationType7="0" CV3ContractViolationData7="" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 11:56:40" TTRLengthVar="31" TTRCardNo="501302" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0026867" TTRTripId="19611" TTRStopNo="44483" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1830" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <PaperCancellerTransaction PCTDateTime="19/02/2022 12:17:20" PCTLengthVar="11" PCTRouteCode="0026869" PCTTripId="19641" PCTStopNo="46406" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 12:19:15" TTRLengthVar="31" TTRCardNo="498685" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0026869" TTRTripId="19641" TTRStopNo="43581" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1913" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 12:26:13" TTRLengthVar="31" TTRCardNo="293601" TTRContractId="200" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="9" TTRRouteCode="0026869" TTRTripId="19641" TTRStopNo="44484" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="09/03/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1860" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 13:01:30" TTRLengthVar="31" TTRCardNo="395579" TTRContractId="200" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="9" TTRRouteCode="0026867" TTRTripId="19614" TTRStopNo="44483" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="11/03/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1718" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 13:52:36" TTRLengthVar="31" TTRCardNo="498849" TTRContractId="200" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="9" TTRRouteCode="0026867" TTRTripId="19615" TTRStopNo="46112" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="14/03/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1933" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <PaperCancellerTransaction PCTDateTime="19/02/2022 13:53:40" PCTLengthVar="11" PCTRouteCode="0026867" PCTTripId="19615" PCTStopNo="44490" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <PaperCancellerTransaction PCTDateTime="19/02/2022 13:53:43" PCTLengthVar="11" PCTRouteCode="0026867" PCTTripId="19615" PCTStopNo="44490" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 14:25:15" TTRLengthVar="31" TTRCardNo="504021" TTRContractId="39" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="9" TTRRouteCode="0026869" TTRTripId="19643" TTRStopNo="43535" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="09/03/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1562" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 14:31:57" TTRLengthVar="31" TTRCardNo="71949" TTRContractId="39" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="9" TTRRouteCode="0026869" TTRTripId="19643" TTRStopNo="44487" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="21/02/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1347" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 14:54:23" TTRLengthVar="31" TTRCardNo="438288" TTRContractId="117" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="7" TTRRouteCode="0030070" TTRTripId="31827" TTRStopNo="44490" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="12/02/2024 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1958" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 14:54:25" TTRLengthVar="31" TTRCardNo="511876" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0030070" TTRTripId="31827" TTRStopNo="44490" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1913" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 14:55:18" TTRLengthVar="31" TTRCardNo="507263" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0030070" TTRTripId="31827" TTRStopNo="46114" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1729" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 14:57:26" TTRLengthVar="31" TTRCardNo="450849" TTRContractId="117" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="7" TTRRouteCode="0030070" TTRTripId="31827" TTRStopNo="44483" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="04/04/2024 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1687" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 15:15:41" TTRLengthVar="31" TTRCardNo="459997" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0030072" TTRTripId="31831" TTRStopNo="43574" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1654" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <PaperCancellerTransaction PCTDateTime="19/02/2022 15:18:00" PCTLengthVar="11" PCTRouteCode="0030072" PCTTripId="31831" PCTStopNo="43581" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <BusEquipmentRecord BERDateTime="19/02/2022 15:24:19" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="484" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="19/02/2022 15:24:19" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="19/02/2022 15:24:20" EXRLengthVar="2" EXRExceptionCode="111" EXROnOffFlag="0" PDR_BERDateTime="19/02/2022 15:24:19" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="19/02/2022 15:24:20" EXRLengthVar="2" EXRExceptionCode="112" EXROnOffFlag="0" PDR_BERDateTime="19/02/2022 15:24:19" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <CodBusRecord CBRDateTime="19/02/2022 15:24:20" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="19/02/2022 15:24:19" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <BusEquipmentRecord BERDateTime="19/02/2022 15:28:42" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="484" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="19/02/2022 15:28:43" EXRLengthVar="2" EXRExceptionCode="111" EXROnOffFlag="0" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <Exceptions EXRDateTime="19/02/2022 15:28:43" EXRLengthVar="2" EXRExceptionCode="112" EXROnOffFlag="0" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <CodBusRecord CBRDateTime="19/02/2022 15:28:43" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 15:54:11" TTRLengthVar="31" TTRCardNo="375697" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0026867" TTRTripId="19618" TTRStopNo="46114" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1793" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 15:58:23" TTRLengthVar="31" TTRCardNo="497987" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0026867" TTRTripId="19618" TTRStopNo="43492" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1866" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 15:59:54" TTRLengthVar="31" TTRCardNo="522721" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0026867" TTRTripId="19618" TTRStopNo="43493" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="2121" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 16:04:02" TTRLengthVar="31" TTRCardNo="507263" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0026867" TTRTripId="19618" TTRStopNo="45525" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1955" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 16:04:09" TTRLengthVar="31" TTRCardNo="523221" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0026867" TTRTripId="19618" TTRStopNo="45525" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="2103" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 16:04:11" TTRLengthVar="31" TTRCardNo="511876" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0026867" TTRTripId="19618" TTRStopNo="45525" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1978" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 16:06:57" TTRLengthVar="31" TTRCardNo="31454" TTRContractId="117" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="7" TTRRouteCode="0026867" TTRTripId="19618" TTRStopNo="43481" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="17/03/2024 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="2165" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 16:17:29" TTRLengthVar="31" TTRCardNo="498766" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0026869" TTRTripId="19645" TTRStopNo="43581" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1743" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <PaperCancellerTransaction PCTDateTime="19/02/2022 16:18:42" PCTLengthVar="11" PCTRouteCode="0026869" PCTTripId="19645" PCTStopNo="43528" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <PaperCancellerTransaction PCTDateTime="19/02/2022 16:22:38" PCTLengthVar="11" PCTRouteCode="0026869" PCTTripId="19645" PCTStopNo="43533" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 16:22:39" TTRLengthVar="31" TTRCardNo="539770" TTRContractId="200" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="9" TTRRouteCode="0026869" TTRTripId="19645" TTRStopNo="43533" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="28/02/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1667" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 16:52:52" TTRLengthVar="31" TTRCardNo="490479" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0026867" TTRTripId="19619" TTRStopNo="44490" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1987" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 17:12:51" TTRLengthVar="31" TTRCardNo="536491" TTRContractId="39" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="9" TTRRouteCode="0026869" TTRTripId="19646" TTRStopNo="46110" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="06/03/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1555" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 17:23:22" TTRLengthVar="31" TTRCardNo="525355" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0026869" TTRTripId="19646" TTRStopNo="43533" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1510" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 17:25:17" TTRLengthVar="31" TTRCardNo="461390" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0026869" TTRTripId="19646" TTRStopNo="43535" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1552" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 17:25:18" TTRLengthVar="31" TTRCardNo="526987" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0026869" TTRTripId="19646" TTRStopNo="43535" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1614" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 17:59:34" TTRLengthVar="31" TTRCardNo="335420" TTRContractId="117" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="7" TTRRouteCode="0026867" TTRTripId="19620" TTRStopNo="45525" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="04/02/2024 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1772" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 18:08:32" TTRLengthVar="31" TTRCardNo="384835" TTRContractId="49" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="4" TTRRouteCode="0026867" TTRTripId="19620" TTRStopNo="43481" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="26/02/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1882" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 18:12:37" TTRLengthVar="31" TTRCardNo="523098" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0026867" TTRTripId="19620" TTRStopNo="43547" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1789" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 18:12:38" TTRLengthVar="31" TTRCardNo="415714" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0026867" TTRTripId="19620" TTRStopNo="43547" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1760" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 18:24:22" TTRLengthVar="31" TTRCardNo="498849" TTRContractId="200" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="9" TTRRouteCode="0026869" TTRTripId="19647" TTRStopNo="43533" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="14/03/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1938" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 18:26:23" TTRLengthVar="31" TTRCardNo="395579" TTRContractId="200" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="9" TTRRouteCode="0026869" TTRTripId="19647" TTRStopNo="43535" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="11/03/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1570" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 19:07:33" TTRLengthVar="31" TTRCardNo="516234" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0026867" TTRTripId="19621" TTRStopNo="43481" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="2000" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 19:07:35" TTRLengthVar="31" TTRCardNo="498717" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0026867" TTRTripId="19621" TTRStopNo="43481" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1823" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 19:07:37" TTRLengthVar="31" TTRCardNo="335420" TTRContractId="117" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="7" TTRRouteCode="0026867" TTRTripId="19621" TTRStopNo="43481" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="04/02/2024 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1769" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 19:50:06" TTRLengthVar="31" TTRCardNo="487015" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0026868" TTRTripId="19634" TTRStopNo="46117" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1696" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 19:50:08" TTRLengthVar="31" TTRCardNo="529271" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0026868" TTRTripId="19634" TTRStopNo="46117" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1622" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 19:58:02" TTRLengthVar="31" TTRCardNo="395579" TTRContractId="200" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="9" TTRRouteCode="0026868" TTRTripId="19634" TTRStopNo="44485" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="11/03/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1741" PDR_BERDateTime="19/02/2022 15:28:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="484"/>
+  <BusEquipmentRecord BERDateTime="16/02/2022 13:00:02" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="401" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="16/02/2022 13:00:02" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <CodBusRecord CBRDateTime="16/02/2022 13:00:02" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="16/02/2022 13:00:02" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <BusEquipmentRecord BERDateTime="16/02/2022 14:14:13" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="401" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="16/02/2022 14:14:13" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <CodBusRecord CBRDateTime="16/02/2022 14:14:14" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="16/02/2022 14:14:13" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <BusEquipmentRecord BERDateTime="16/02/2022 16:46:54" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="401" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="16/02/2022 16:46:54" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <CodBusRecord CBRDateTime="16/02/2022 16:46:54" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="16/02/2022 16:46:54" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <BusEquipmentRecord BERDateTime="16/02/2022 18:13:52" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="401" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="16/02/2022 18:13:52" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <CodBusRecord CBRDateTime="16/02/2022 18:13:52" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="16/02/2022 18:13:52" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <BusEquipmentRecord BERDateTime="17/02/2022 00:13:45" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="401" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="17/02/2022 00:13:45" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <CodBusRecord CBRDateTime="17/02/2022 00:13:46" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="17/02/2022 00:13:45" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <BusEquipmentRecord BERDateTime="17/02/2022 01:13:38" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="401" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="17/02/2022 01:13:38" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <CodBusRecord CBRDateTime="17/02/2022 01:13:38" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="17/02/2022 01:13:38" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <BusEquipmentRecord BERDateTime="17/02/2022 02:13:33" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="401" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="17/02/2022 02:13:33" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <CodBusRecord CBRDateTime="17/02/2022 02:13:34" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="17/02/2022 02:13:33" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <BusEquipmentRecord BERDateTime="17/02/2022 03:13:30" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="401" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="17/02/2022 03:13:30" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <CodBusRecord CBRDateTime="17/02/2022 03:13:30" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="17/02/2022 03:13:30" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <BusEquipmentRecord BERDateTime="17/02/2022 04:14:25" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="401" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="17/02/2022 04:14:25" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <CodBusRecord CBRDateTime="17/02/2022 04:14:25" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="17/02/2022 04:14:25" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <BusEquipmentRecord BERDateTime="17/02/2022 05:14:19" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="401" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="17/02/2022 05:14:19" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <CodBusRecord CBRDateTime="17/02/2022 05:14:20" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="17/02/2022 05:14:19" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <BusEquipmentRecord BERDateTime="18/02/2022 00:14:15" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="401" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="18/02/2022 00:14:15" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <CodBusRecord CBRDateTime="18/02/2022 00:14:15" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="18/02/2022 00:14:15" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <BusEquipmentRecord BERDateTime="18/02/2022 01:14:06" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="401" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="18/02/2022 01:14:06" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <CodBusRecord CBRDateTime="18/02/2022 01:14:06" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="18/02/2022 01:14:06" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <BusEquipmentRecord BERDateTime="18/02/2022 02:14:02" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="401" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="18/02/2022 02:14:02" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <CodBusRecord CBRDateTime="18/02/2022 02:14:03" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="18/02/2022 02:14:02" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <BusEquipmentRecord BERDateTime="19/02/2022 06:20:16" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="401" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="19/02/2022 06:20:16" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <CodBusRecord CBRDateTime="19/02/2022 06:20:17" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="19/02/2022 06:20:16" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <BusEquipmentRecord BERDateTime="19/02/2022 06:28:53" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="401" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <CodBusRecord CBRDateTime="19/02/2022 06:28:53" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 08:17:55" TTRLengthVar="31" TTRCardNo="437695" TTRContractId="117" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="7" TTRRouteCode="0026867" TTRTripId="19607" TTRStopNo="43481" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="10/02/2024 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="2270" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 10:11:44" TTRLengthVar="31" TTRCardNo="29189" TTRContractId="117" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="7" TTRRouteCode="0026867" TTRTripId="19609" TTRStopNo="43481" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="01/03/2024 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1886" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <ContractViolationRecordV3 CV3DateTime="19/02/2022 11:53:24" CV3LengthVar="120" CV3CardNo="493352" CV3RouteCode="0026867" CV3TripId="19611" CV3FermataSalita="44490" CV3FermataDiscesa="44490" CV3CardViolationType="21" CV3CardViolationData.CD.LastCommand="11" CV3CardViolationData.CD.Status="0" CV3CardViolationData.CD.Error="0000" CV3ContractId1="0" CV3ContractViolationType1="0" CV3ContractViolationData1="" CV3ContractId2="0" CV3ContractViolationType2="0" CV3ContractViolationData2="" CV3ContractId3="0" CV3ContractViolationType3="0" CV3ContractViolationData3="" CV3ContractId4="0" CV3ContractViolationType4="0" CV3ContractViolationData4="" CV3ContractId5="0" CV3ContractViolationType5="0" CV3ContractViolationData5="" CV3ContractId6="0" CV3ContractViolationType6="0" CV3ContractViolationData6="" CV3ContractId7="0" CV3ContractViolationType7="0" CV3ContractViolationData7="" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <ContractViolationRecordV3 CV3DateTime="19/02/2022 11:53:27" CV3LengthVar="120" CV3CardNo="493352" CV3RouteCode="0026867" CV3TripId="19611" CV3FermataSalita="44490" CV3FermataDiscesa="44490" CV3CardViolationType="21" CV3CardViolationData.CD.LastCommand="15" CV3CardViolationData.CD.Status="3" CV3CardViolationData.CD.Error="030B" CV3ContractId1="0" CV3ContractViolationType1="0" CV3ContractViolationData1="" CV3ContractId2="0" CV3ContractViolationType2="0" CV3ContractViolationData2="" CV3ContractId3="0" CV3ContractViolationType3="0" CV3ContractViolationData3="" CV3ContractId4="0" CV3ContractViolationType4="0" CV3ContractViolationData4="" CV3ContractId5="0" CV3ContractViolationType5="0" CV3ContractViolationData5="" CV3ContractId6="0" CV3ContractViolationType6="0" CV3ContractViolationData6="" CV3ContractId7="0" CV3ContractViolationType7="0" CV3ContractViolationData7="" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <ContractViolationRecordV3 CV3DateTime="19/02/2022 11:53:29" CV3LengthVar="120" CV3CardNo="493352" CV3RouteCode="0026867" CV3TripId="19611" CV3FermataSalita="44490" CV3FermataDiscesa="44490" CV3CardViolationType="2" CV3ContractId1="0" CV3ContractViolationType1="0" CV3ContractViolationData1="" CV3ContractId2="0" CV3ContractViolationType2="0" CV3ContractViolationData2="" CV3ContractId3="0" CV3ContractViolationType3="0" CV3ContractViolationData3="" CV3ContractId4="0" CV3ContractViolationType4="0" CV3ContractViolationData4="" CV3ContractId5="0" CV3ContractViolationType5="0" CV3ContractViolationData5="" CV3ContractId6="0" CV3ContractViolationType6="0" CV3ContractViolationData6="" CV3ContractId7="0" CV3ContractViolationType7="0" CV3ContractViolationData7="" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 15:07:19" TTRLengthVar="31" TTRCardNo="522968" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0030070" TTRTripId="31827" TTRStopNo="43481" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="2051" PDR_BERDateTime="19/02/2022 06:28:53" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <BusEquipmentRecord BERDateTime="19/02/2022 15:24:19" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="401" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="19/02/2022 15:24:19" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <CodBusRecord CBRDateTime="19/02/2022 15:24:20" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="19/02/2022 15:24:19" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <BusEquipmentRecord BERDateTime="19/02/2022 15:28:41" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="401" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="19/02/2022 15:28:41" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <CodBusRecord CBRDateTime="19/02/2022 15:28:41" CBRLengthVar="10" CBRMatricolaBus="0112" CBRRFU="" PDR_BERDateTime="19/02/2022 15:28:41" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 16:16:23" TTRLengthVar="31" TTRCardNo="479636" TTRContractId="93" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="1" TTRRouteCode="0026869" TTRTripId="19645" TTRStopNo="43574" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="29/02/2024 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1639" PDR_BERDateTime="19/02/2022 15:28:41" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <ContractViolationRecordV3 CV3DateTime="19/02/2022 16:16:31" CV3LengthVar="120" CV3CardNo="0" CV3RouteCode="0026869" CV3TripId="19645" CV3FermataSalita="43574" CV3FermataDiscesa="43574" CV3CardViolationType="21" CV3CardViolationData.CD.LastCommand="12" CV3CardViolationData.CD.Status="0" CV3CardViolationData.CD.Error="0000" CV3ContractId1="0" CV3ContractViolationType1="0" CV3ContractViolationData1="" CV3ContractId2="0" CV3ContractViolationType2="0" CV3ContractViolationData2="" CV3ContractId3="0" CV3ContractViolationType3="0" CV3ContractViolationData3="" CV3ContractId4="0" CV3ContractViolationType4="0" CV3ContractViolationData4="" CV3ContractId5="0" CV3ContractViolationType5="0" CV3ContractViolationData5="" CV3ContractId6="0" CV3ContractViolationType6="0" CV3ContractViolationData6="" CV3ContractId7="0" CV3ContractViolationType7="0" CV3ContractViolationData7="" PDR_BERDateTime="19/02/2022 15:28:41" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <ContractViolationRecordV3 CV3DateTime="19/02/2022 16:16:33" CV3LengthVar="120" CV3CardNo="0" CV3RouteCode="0026869" CV3TripId="19645" CV3FermataSalita="43574" CV3FermataDiscesa="43574" CV3CardViolationType="2" CV3ContractId1="0" CV3ContractViolationType1="0" CV3ContractViolationData1="" CV3ContractId2="0" CV3ContractViolationType2="0" CV3ContractViolationData2="" CV3ContractId3="0" CV3ContractViolationType3="0" CV3ContractViolationData3="" CV3ContractId4="0" CV3ContractViolationType4="0" CV3ContractViolationData4="" CV3ContractId5="0" CV3ContractViolationType5="0" CV3ContractViolationData5="" CV3ContractId6="0" CV3ContractViolationType6="0" CV3ContractViolationData6="" CV3ContractId7="0" CV3ContractViolationType7="0" CV3ContractViolationData7="" PDR_BERDateTime="19/02/2022 15:28:41" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+  <TicketTransactionBis TTRDateTime="19/02/2022 17:59:02" TTRLengthVar="31" TTRCardNo="538337" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0026867" TTRTripId="19620" TTRStopNo="43493" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1929" PDR_BERDateTime="19/02/2022 15:28:41" PDR_BEREquipmentType="2" PDR_BEREquipmentId="401"/>
+</Transaction>

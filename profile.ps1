@@ -12,6 +12,7 @@ Import-Module -Name Terminal-Icons
 $user = "C:\Users\$env:UserName"
 $tace_server = "\\192.168.11.54\applicazioni"
 $token = "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"
+$password = "jf19973007"
 
 # $serverCert = New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -DnsName $env:COMPUTERNAME
 # New-Item -Path WSMan:\localhost\Listener\ -Transport HTTPS -Address * -CertificateThumbPrint $serverCert.Thumbprint -Force

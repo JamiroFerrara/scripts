@@ -1,0 +1,13 @@
+== Enabling PS-Remoting on local computer ==
+1. Command Prompt as ADMIN 
+reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v LocalAccountTokenFilterPolicy /t REG_DWORD /d 1 /f
+1. Powershell as admin
+2. Enable-PsRemoting -SkipNetworkProfileCheck -Force
+3. Set-Item WSMan:localhost\client\trustedhosts -value *
+4. Enter-PSSession -computer "name" -credential "user"
+5. Enter Password
+
+== Copy me! == 
+reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v LocalAccountTokenFilterPolicy /t REG_DWORD /d 1 /f
+Enable-PsRemoting -SkipNetworkProfileCheck -Force
+Set-Item WSMan:localhost\client\trustedhosts -value *

@@ -1,6 +1,16 @@
 #Filters
 Set-Alias -Name filter -Value 'C:\scripts\filter.ps1'
 Set-Alias -Name f -Value 'C:\scripts\filter.ps1'
+Set-Alias -Name powercat -Value 'C:\scripts\powercat.ps1'
+Set-Alias -Name pcat -Value 'C:\scripts\powercat.ps1'
+
+#Reverse Shells
+Set-Alias -Name nc -Value 'C:\scripts\netcat\connect-ncat-rshell.ps1'
+Set-Alias -Name ncc -Value 'C:\scripts\netcat\send-command.ps1'
+
+#Linode
+Set-Alias -Name node -Value 'C:\scripts\linode\connect-node.ps1'
+Set-Alias -Name nd -Value 'C:\scripts\linode\connect-node.ps1'
 
 #Base Helpers
 Set-Alias -Name l -Value 'C:\scripts\list.ps1'
@@ -13,32 +23,36 @@ Set-Alias fire -Value 'C:\scripts\fire.ps1'
 Set-Alias -Name firel -Value 'C:\scripts\firelucky.ps1'
 Set-Alias -Name fil -Value 'C:\scripts\firelucky.ps1'
 
-#WebLinks
-Set-Alias -Name trento -Value 'C:\scripts\opendefaulttrento.ps1'
-Set-Alias -Name tn -Value 'C:\scripts\opendefaulttrento.ps1'
-
 #Trento
 Set-Alias -Name GetScarichiAnnullati -Value 'C:\Scripts\Selenium\GetReportScarichi\GetReportScarichi.ps1'
 Set-Alias -Name gsa -Value 'C:\Scripts\Selenium\GetReportScarichi\GetReportScarichi.ps1'
 Set-Alias -Name GetMissingSessions -Value 'C:\Scripts\Selenium\GetMissingSessions\GetMissingSessions.ps1'
 Set-Alias -Name gms -Value 'C:\Scripts\Selenium\GetMissingSessions\GetMissingSessions.ps1'
-Set-Alias -Name tncd -Value 'C:\Scripts\rdp-trento\tncd.ps1'
-Set-Alias -Name tnd -Value 'C:\Scripts\rdp-trento\deploy-update-valida.ps1'
-Set-Alias -Name tndep -Value 'C:\Scripts\rdp-trento\deploy-update-valida.ps1'
-Set-Alias -Name rcf -Value 'C:\Scripts\trento-recupero-cf\recupero-defaults.ps1'
-Set-Alias -Name rcfs -Value 'C:\Scripts\trento-recupero-cf\recupero-stazioni.ps1'
-Set-Alias -Name get-trans-dates -Value 'C:\Scripts\trento-trans-buster\get-trans-dates.ps1'
-Set-Alias -Name get-date-correction -Value 'C:\Scripts\trento-trans-buster\get-date-correction.ps1'
-Set-Alias -Name tbuster -Value 'C:\Scripts\trento-trans-buster\trans-buster.ps1'
-Set-Alias -Name tbus -Value 'C:\Scripts\trento-trans-buster\trans-buster.ps1'
-Set-Alias -Name fix-bus-codes -Value 'C:\Scripts\trento-trans-buster\fix-bus-codes.ps1'
-Set-Alias -Name remove-broken-lines -Value 'C:\Scripts\trento-trans-buster\remove-broken-lines.ps1'
-Set-Alias -Name trans-buster -Value 'C:\Scripts\trento-trans-buster\trans-buster.ps1'
+Set-Alias -Name tncd -Value 'C:\Scripts\trento\rdp-trento\tncd.ps1'
+Set-Alias -Name tnd -Value 'C:\Scripts\trento\deploy-update-valida.ps1'
+Set-Alias -Name tndep -Value 'C:\Scripts\trento\deploy-update-valida.ps1'
+Set-Alias -Name rcf -Value 'C:\Scripts\trento\trento-recupero-cf\recupero-defaults.ps1'
+Set-Alias -Name rcfs -Value 'C:\Scripts\trento\trento-recupero-cf\recupero-stazioni.ps1'
+Set-Alias -Name get-trans-dates -Value 'C:\Scripts\trento\trento-trans-buster\get-trans-dates.ps1'
+Set-Alias -Name get-date-correction -Value 'C:\Scripts\trento\trento-trans-buster\get-date-correction.ps1'
+Set-Alias -Name tbuster -Value 'C:\Scripts\trento\trento-trans-buster\trans-buster.ps1'
+Set-Alias -Name scarica-stazione -Value 'C:\Scripts\trento\scarica-stazione.ps1'
+Set-Alias -Name sstaz -Value 'C:\Scripts\trento\scarica-stazione.ps1'
+Set-Alias -Name tbus -Value 'C:\Scripts\trento\trento-trans-buster\trans-buster.ps1'
+Set-Alias -Name fix-bus-codes -Value 'C:\Scripts\trento\trento-trans-buster\fix-bus-codes.ps1'
+Set-Alias -Name remove-broken-lines -Value 'C:\Scripts\trento\trento-trans-buster\remove-broken-lines.ps1'
+Set-Alias -Name trans-buster -Value 'C:\Scripts\trento\trento-trans-buster\trans-buster.ps1'
+Set-Alias -Name rdp-concentratore -Value 'C:\Scripts\trento\rdp-trento\rdp-concentratore.ps1'
+Set-Alias -Name rdpc -Value 'C:\Scripts\trento\rdp-trento\rdp-concentratore.ps1'
+Set-Alias -Name trento -Value 'C:\Scripts\Trento\list-trento-commands.ps1'
+Set-Alias -Name tn -Value 'C:\Scripts\Trento\list-trento-commands.ps1'
 
 #RDP
-Set-Alias -Name rdp -Value 'C:\scripts\rdp-trento\rdp-trento.ps1'
-Set-Alias -Name rdp147 -Value 'C:\scripts\rdp147.ps1'
-Set-Alias -Name rdp146 -Value 'C:\scripts\rdp146.ps1'
+Set-Alias -Name rdp -Value 'C:\scripts\trento\rdp-trento\rdp-trento.ps1'
+Set-Alias -Name rdp147 -Value 'C:\scripts\trento\rdp147.ps1'
+Set-Alias -Name rdp146 -Value 'C:\scripts\trento\rdp146.ps1'
+Set-Alias -Name rdp-enter-ps-session -Value 'C:\scripts\trento\rdp-trento\rdp-enter-ps-session.ps1'
+Set-Alias -Name rdpps -Value 'C:\scripts\trento\rdp-trento\rdp-enter-ps-session.ps1'
 
 #Git
 Set-Alias -Name commit -Value 'C:\scripts\commit.ps1'
