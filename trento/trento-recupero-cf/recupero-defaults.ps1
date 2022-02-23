@@ -13,18 +13,15 @@ if ($args.count -eq 0)
             $zero = "000"     
         }
 
-        $name = $header + $time + $zero + $bus + ".dat"
-
         $i = 0
         $files = es -path ./ "trans_eterm.dat"
-        $files2 = es -path ./ "trans_backup.dat"
-        $files = $files + $files2 + $files3
+        $files = $files 
         echo $files
 
         foreach($file in $files)
         {
             $date = (get-date).addminutes($i).tostring("yyMMddhhmm")
-            $fullName = "$header$date$bus.dat"
+            $fullName = "$header$date$zero$bus.dat"
             Copy-Item $file "./$fullName"
             $i++
         }
