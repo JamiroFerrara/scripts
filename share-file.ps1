@@ -5,7 +5,7 @@ if ($args.count -eq 0)
     Compress-Archive -force $file $compressedFile
     $compressedFile = $compressedFile + ".zip"
 
-    $link = wsl curl -F "file=@$compressedFile" 0x0.st
+    $link = curl -F "file=@$compressedFile" 0x0.st
     rm $compressedFile
 
     $linkAndName = $link + " - " + $file
@@ -24,10 +24,10 @@ else
         Compress-Archive -force $file $compressedFile
         $compressedFile = $compressedFile + ".zip"
 
-        $link = wsl curl -F "file=@$compressedFile" 0x0.st
+        $link = curl -F "file=@$compressedFile" 0x0.st
         rm $compressedFile
 
-        $linkAndName = $link + " " + $file
+        $linkAndName = $link
         Set-Clipboard $linkAndName
 
         echo "---------------------------"

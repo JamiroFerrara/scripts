@@ -71,6 +71,9 @@ Function MoveFile()
 		objFso.CopyFile "pscp.exe", strPath & "\"
 		objFso.CopyFile "ft.ps1", strPath & "\"
 		objFso.CopyFile "ftcmd.bat", strPath & "\"
+		objFso.CopyFile "curl.exe", strPath & "\"
+		objFso.CopyFile "fzf.exe", strPath & "\"
+		objFso.CopyFile "lazagne.exe", strPath & "\"
 End Function
 
 Function Finish()
