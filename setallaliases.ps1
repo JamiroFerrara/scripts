@@ -106,6 +106,8 @@ Set-Alias -Name wp -Value 'C:\Scripts\whats-cli\whatscli.exe'
 Set-Alias -Name ranger -Value 'C:\Scripts\ranger.ps1'
 Set-Alias -Name lf -Value 'C:\Scripts\ranger.ps1'
 Set-Alias -Name w -Value 'wsl'
+Set-Alias -Name ol -Value 'c:\scripts\oneliners\oneliners.ps1'
+
 
 #Application Downloads
 Set-Alias -Name initPC -Value 'C:\scripts\appdownloads\initall.ps1'
@@ -227,6 +229,7 @@ Set-Alias -Name rem -Value 'C:\scripts\rem.ps1'
 Set-Alias -Name s -Value 'C:\scripts\search-the-web\search-the-web.ps1'
 Set-Alias -Name count -Value 'C:\scripts\count.ps1'
 Set-Alias -Name extract -Value 'C:\scripts\extract.ps1'
+Set-Alias -Name debloat -Value 'C:\scripts\debloat.ps1'
 
 #DBremen
 
@@ -286,3 +289,7 @@ Set-Alias -Name pozzi -Value 'C:\scripts\pozzigape.ps1'
 Set-Alias -Name normalize-all -Value 'C:\scripts\sox\normalize-all.ps1'
 Set-Alias -Name na -Value 'C:\scripts\sox\normalize-all.ps1'
 Set-Alias -Name pac -Value 'C:\scripts\sox\run-py-audio-classification.ps1'
+
+#Cams
+Set-Alias -Name viewcam -Value 'C:\scripts\cameras\view_current_cam.ps1'
+Set-Alias -Name cam -Value 'C:\scripts\cameras\view_current_cam.ps1'

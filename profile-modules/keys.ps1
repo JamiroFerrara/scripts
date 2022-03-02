@@ -645,16 +645,3 @@ Set-PSReadLineKeyHandler -Key Ctrl+Shift+t `
     [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine()
 }
 
-Set-PsReadLineKeyHandler -Chord "C" `
-                         -ScriptBlock {
-    [Microsoft.PowerShell.PSConsoleReadLine]::RevertLine()
-    [Microsoft.PowerShell.PSConsoleReadLine]::Insert("c ")
-    [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine()
-}
-
-Set-PsReadLineKeyHandler -Chord "V" `
-                         -ScriptBlock {
-    [Microsoft.PowerShell.PSConsoleReadLine]::RevertLine()
-    [Microsoft.PowerShell.PSConsoleReadLine]::Insert("v ")
-    [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine()
-}

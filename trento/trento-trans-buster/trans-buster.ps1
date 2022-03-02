@@ -371,7 +371,7 @@ if ($args.count -ne 0)
             psexec \\172.20.3.18 $mpExe
 
             #Invisbile Fix
-            Copy-Item $bFile $fileDir
+            #Copy-Item $bFile $fileDir
         }
         else 
         {

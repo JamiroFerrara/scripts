@@ -18,7 +18,6 @@ else
         $file = $args[0].substring(2)
 
         $link = curl -F "file=@$file" 0x0.st
-        rm $file
 
         $linkAndName = $link
         Set-Clipboard $linkAndName
