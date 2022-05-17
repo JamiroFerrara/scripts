@@ -1,46 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created by ConvDatToXml v1.1 - Soc. T.S.F. SpA - developer De Marchi Alessandro a.demarchi@tsf.it -->
-<Transaction DateTime="10/02/2022 09.02.53" Bus="001678" FileName="trans2202080809001678.dat" cod_acq="8830439">
-  <BusEquipmentRecord BERDateTime="07/02/2022 11:22:09" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="0" BERRelease="0" BERFix="0" PDR_BERDateTime="07/02/2022 14:00:20" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
-  <BusEquipmentRecord BERDateTime="07/02/2022 11:22:09" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="638" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="07/02/2022 14:00:20" PDR_BEREquipmentType="4" PDR_BEREquipmentId="638"/>
-  <BusEquipmentRecord BERDateTime="07/02/2022 11:22:09" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="0" BERRelease="0" BERFix="0" PDR_BERDateTime="07/02/2022 14:03:34" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
-  <BusEquipmentRecord BERDateTime="07/02/2022 11:22:09" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="638" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="07/02/2022 14:03:34" PDR_BEREquipmentType="4" PDR_BEREquipmentId="638"/>
-  <BusEquipmentRecord BERDateTime="07/02/2022 11:22:09" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="0" BERRelease="0" BERFix="0" PDR_BERDateTime="08/02/2022 06:15:05" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
-  <BusEquipmentRecord BERDateTime="07/02/2022 11:22:09" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="638" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="08/02/2022 06:15:05" PDR_BEREquipmentType="4" PDR_BEREquipmentId="638"/>
-  <StartOfDuty SODDateTime="07/02/2022 11:22:09" SODLengthVar="7" SODDutyCode="458" SODDriverNo="301296" SODInvalidDutyNo="0">
-    <CodBusRecord CBRDateTime="07/02/2022 11:22:11" CBRLengthVar="10" CBRMatricolaBus="1678" CBRRFU=""/>
-    <StartOfTrip SOTDateTime="07/02/2022 11:22:18" SOTLengthVar="16" SOTRouteCode="0000686" SOTTripId="7000" SOTLineCode="302" SOTInvalid="0">
-      <EOTDateTime>07/02/2022 11:51:41</EOTDateTime>
-      <EOTLengthVar>15</EOTLengthVar>
-      <EOTRouteCode>0000686</EOTRouteCode>
-      <EOTTripId>7000</EOTTripId>
-      <EOTLineCode>302</EOTLineCode>
-    </StartOfTrip>
-    <StartOfTrip SOTDateTime="07/02/2022 11:51:42" SOTLengthVar="16" SOTRouteCode="0002918" SOTTripId="6995" SOTLineCode="302" SOTInvalid="0">
-      <EOTDateTime>07/02/2022 12:15:17</EOTDateTime>
-      <EOTLengthVar>15</EOTLengthVar>
-      <EOTRouteCode>0002918</EOTRouteCode>
-      <EOTTripId>6995</EOTTripId>
-      <EOTLineCode>302</EOTLineCode>
-    </StartOfTrip>
-    <StartOfTrip SOTDateTime="07/02/2022 12:15:20" SOTLengthVar="16" SOTRouteCode="0010431" SOTTripId="1825" SOTLineCode="103" SOTInvalid="0">
-      <EOTDateTime>07/02/2022 13:58:44</EOTDateTime>
-      <EOTLengthVar>15</EOTLengthVar>
-      <EOTRouteCode>0010431</EOTRouteCode>
-      <EOTTripId>1825</EOTTripId>
-      <EOTLineCode>103</EOTLineCode>
-    </StartOfTrip>
-    <SessionOpening SORDateTime="07/02/2022 11:22:17" SORLengthVar="8" SORSessionNo="554" SORCashValue="86100">
-      <PaperTicketIssuing PTIDateTime="07/02/2022 11:30:12" PTILengthVar="19" PTITicketNo="43" PTITicketValue="300" PTIPaymentMode="1" PTIContractId="89" PTIPassengerClass="5" PTIScontoID="0" PTIPassengerCount="1" PTIOriginCode="1" PTIDestinationCode="3670" PTIFasciaTariffaria="160"/>
-      <PaperTicketIssuing PTIDateTime="07/02/2022 11:52:25" PTILengthVar="19" PTITicketNo="44" PTITicketValue="300" PTIPaymentMode="1" PTIContractId="89" PTIPassengerClass="5" PTIScontoID="0" PTIPassengerCount="1" PTIOriginCode="3640" PTIDestinationCode="1" PTIFasciaTariffaria="120"/>
-      <SCRDateTime>07/02/2022 13:58:44</SCRDateTime>
+<Transaction DateTime="14/04/2022 19.40.28" Bus="001686" FileName="trans2204141939001686.dat" cod_acq="8886702">
+  <Exceptions EXRDateTime="14/04/2022 10:04:17" EXRLengthVar="2" EXRExceptionCode="6" EXROnOffFlag="0"/>
+  <BusEquipmentRecord BERDateTime="14/04/2022 10:05:51" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="43" BERRelease="9" BERFix="94" PDR_BERDateTime="14/04/2022 10:05:51" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
+  <BusEquipmentRecord BERDateTime="14/04/2022 10:05:51" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="185" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="14/04/2022 10:05:51" PDR_BEREquipmentType="4" PDR_BEREquipmentId="185"/>
+  <StartOfDuty SODDateTime="14/04/2022 10:05:51" SODLengthVar="7" SODDutyCode="860" SODDriverNo="303826" SODInvalidDutyNo="0" PDR_BERDateTime="14/04/2022 10:05:51" PDR_BEREquipmentType="4" PDR_BEREquipmentId="185">
+    <CodBusRecord CBRDateTime="14/04/2022 10:05:51" CBRLengthVar="10" CBRMatricolaBus="1686" CBRRFU="" PDR_BERDateTime="14/04/2022 10:05:51" PDR_BEREquipmentType="4" PDR_BEREquipmentId="185"/>
+    <SessionOpening SORDateTime="14/04/2022 10:05:56" SORLengthVar="8" SORSessionNo="2350" SORCashValue="1984265" PDR_BERDateTime="14/04/2022 10:05:51" PDR_BEREquipmentType="4" PDR_BEREquipmentId="185">
+      <StartOfTrip SOTDateTime="14/04/2022 10:05:56" SOTLengthVar="16" SOTRouteCode="0003118" SOTTripId="3258" SOTLineCode="201" SOTInvalid="0" PDR_BERDateTime="14/04/2022 10:05:51" PDR_BEREquipmentType="4" PDR_BEREquipmentId="185">
+        <Exceptions EXRDateTime="14/04/2022 10:07:30" EXRLengthVar="2" EXRExceptionCode="9" EXROnOffFlag="0" PDR_BERDateTime="14/04/2022 10:05:51" PDR_BEREquipmentType="4" PDR_BEREquipmentId="185"/>
+        <EOTDateTime>14/04/2022 10:37:09</EOTDateTime>
+        <EOTLengthVar>15</EOTLengthVar>
+        <EOTRouteCode>0003118</EOTRouteCode>
+        <EOTTripId>3258</EOTTripId>
+        <EOTLineCode>201</EOTLineCode>
+      </StartOfTrip>
+      <SCRDateTime>14/04/2022 10:37:12</SCRDateTime>
       <SCRLengthVar>8</SCRLengthVar>
-      <SCRSessionNo>554</SCRSessionNo>
-      <SCRCashValue>86700</SCRCashValue>
+      <SCRSessionNo>2351</SCRSessionNo>
+      <SCRCashValue>1984265</SCRCashValue>
     </SessionOpening>
-    <EODDateTime>07/02/2022 13:58:44</EODDateTime>
+    <EODDateTime>14/04/2022 10:37:12</EODDateTime>
     <EODLengthVar>3</EODLengthVar>
-    <EODDutyNo>458</EODDutyNo>
+    <EODDutyNo>860</EODDutyNo>
+    <EODEndMode>3</EODEndMode>
+  </StartOfDuty>
+  <BusEquipmentRecord BERDateTime="14/04/2022 10:37:12" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="43" BERRelease="9" BERFix="94" PDR_BERDateTime="20/04/2022 06:35:24" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
+  <BusEquipmentRecord BERDateTime="14/04/2022 10:37:12" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="624" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="20/04/2022 06:35:24" PDR_BEREquipmentType="4" PDR_BEREquipmentId="624"/>
+  <BusEquipmentRecord BERDateTime="14/04/2022 10:37:12" BERLengthVar="8" BEREquipmentType="1" BEREquipmentId="0" BERVersione="43" BERRelease="9" BERFix="94" PDR_BERDateTime="20/04/2022 06:36:36" PDR_BEREquipmentType="1" PDR_BEREquipmentId="0"/>
+  <BusEquipmentRecord BERDateTime="14/04/2022 10:37:12" BERLengthVar="8" BEREquipmentType="4" BEREquipmentId="624" BERVersione="4" BERRelease="3" BERFix="7" PDR_BERDateTime="20/04/2022 06:36:36" PDR_BEREquipmentType="4" PDR_BEREquipmentId="624"/>
+  <StartOfDuty SODDateTime="14/04/2022 10:37:12" SODLengthVar="7" SODDutyCode="860" SODDriverNo="303826" SODInvalidDutyNo="0" PDR_BERDateTime="14/04/2022 10:37:09" PDR_BEREquipmentType="4" PDR_BEREquipmentId="185">
+    <CodBusRecord CBRDateTime="14/04/2022 10:37:12" CBRLengthVar="10" CBRMatricolaBus="1686" CBRRFU="" PDR_BERDateTime="14/04/2022 10:37:09" PDR_BEREquipmentType="4" PDR_BEREquipmentId="185"/>
+    <SessionOpening SORDateTime="14/04/2022 10:37:12" SORLengthVar="8" SORSessionNo="2352" SORCashValue="1984265" PDR_BERDateTime="14/04/2022 10:37:09" PDR_BEREquipmentType="4" PDR_BEREquipmentId="185">
+      <StartOfTrip SOTDateTime="14/04/2022 10:37:12" SOTLengthVar="16" SOTRouteCode="0003118" SOTTripId="3258" SOTLineCode="201" SOTInvalid="0" PDR_BERDateTime="14/04/2022 10:37:09" PDR_BEREquipmentType="4" PDR_BEREquipmentId="185">
+        <PaperTicketIssuing PTIDateTime="14/04/2022 10:37:13" PTILengthVar="19" PTITicketNo="428" PTITicketValue="300" PTIPaymentMode="1" PTIContractId="89" PTIPassengerClass="5" PTIScontoID="0" PTIPassengerCount="1" PTIOriginCode="2180" PTIDestinationCode="2290" PTIFasciaTariffaria="120" PDR_BERDateTime="14/04/2022 10:37:09" PDR_BEREquipmentType="4" PDR_BEREquipmentId="185"/>
+        <PaperTicketIssuing PTIDateTime="14/04/2022 10:37:14" PTILengthVar="19" PTITicketNo="429" PTITicketValue="300" PTIPaymentMode="1" PTIContractId="89" PTIPassengerClass="5" PTIScontoID="0" PTIPassengerCount="1" PTIOriginCode="2180" PTIDestinationCode="2430" PTIFasciaTariffaria="250" PDR_BERDateTime="14/04/2022 10:37:09" PDR_BEREquipmentType="4" PDR_BEREquipmentId="185"/>
+        <PaperTicketIssuing PTIDateTime="14/04/2022 10:37:15" PTILengthVar="19" PTITicketNo="430" PTITicketValue="300" PTIPaymentMode="1" PTIContractId="89" PTIPassengerClass="5" PTIScontoID="0" PTIPassengerCount="1" PTIOriginCode="2180" PTIDestinationCode="2430" PTIFasciaTariffaria="250" PDR_BERDateTime="14/04/2022 10:37:09" PDR_BEREquipmentType="4" PDR_BEREquipmentId="185"/>
+        <EOTDateTime>14/04/2022 10:37:15</EOTDateTime>
+        <EOTLengthVar>15</EOTLengthVar>
+        <EOTRouteCode>0003118</EOTRouteCode>
+        <EOTTripId>3258</EOTTripId>
+        <EOTLineCode>201</EOTLineCode>
+      </StartOfTrip>
+      <SCRDateTime>14/04/2022 10:37:15</SCRDateTime>
+      <SCRLengthVar>8</SCRLengthVar>
+      <SCRSessionNo>2352</SCRSessionNo>
+      <SCRCashValue>1985165</SCRCashValue>
+    </SessionOpening>
+    <EODDateTime>14/04/2022 10:37:15</EODDateTime>
+    <EODLengthVar>3</EODLengthVar>
+    <EODDutyNo>860</EODDutyNo>
     <EODEndMode>2</EODEndMode>
   </StartOfDuty>
+  <BusEquipmentRecord BERDateTime="14/04/2022 09:53:42" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="263" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="14/04/2022 09:53:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="263"/>
+  <CodBusRecord CBRDateTime="14/04/2022 09:53:42" CBRLengthVar="10" CBRMatricolaBus="1686" CBRRFU="" PDR_BERDateTime="14/04/2022 09:53:42" PDR_BEREquipmentType="2" PDR_BEREquipmentId="263"/>
+  <BusEquipmentRecord BERDateTime="14/04/2022 10:36:11" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="263" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="14/04/2022 10:36:11" PDR_BEREquipmentType="2" PDR_BEREquipmentId="263"/>
+  <CodBusRecord CBRDateTime="14/04/2022 10:36:11" CBRLengthVar="10" CBRMatricolaBus="1686" CBRRFU="" PDR_BERDateTime="14/04/2022 10:36:11" PDR_BEREquipmentType="2" PDR_BEREquipmentId="263"/>
+  <TicketTransactionBis TTRDateTime="14/04/2022 10:59:46" TTRLengthVar="31" TTRCardNo="508893" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0003118" TTRTripId="3258" TTRStopNo="2170" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1739" PDR_BERDateTime="14/04/2022 10:36:11" PDR_BEREquipmentType="2" PDR_BEREquipmentId="263"/>
+  <ContractViolationRecordV3 CV3DateTime="14/04/2022 10:59:48" CV3LengthVar="120" CV3CardNo="508893" CV3RouteCode="0003118" CV3TripId="3258" CV3FermataSalita="2170" CV3FermataDiscesa="2170" CV3CardViolationType="2" CV3ContractId1="0" CV3ContractViolationType1="0" CV3ContractViolationData1="" CV3ContractId2="0" CV3ContractViolationType2="0" CV3ContractViolationData2="" CV3ContractId3="0" CV3ContractViolationType3="0" CV3ContractViolationData3="" CV3ContractId4="0" CV3ContractViolationType4="0" CV3ContractViolationData4="" CV3ContractId5="0" CV3ContractViolationType5="0" CV3ContractViolationData5="" CV3ContractId6="0" CV3ContractViolationType6="0" CV3ContractViolationData6="" CV3ContractId7="0" CV3ContractViolationType7="0" CV3ContractViolationData7="" PDR_BERDateTime="14/04/2022 10:36:11" PDR_BEREquipmentType="2" PDR_BEREquipmentId="263"/>
+  <TicketTransactionBis TTRDateTime="14/04/2022 10:59:50" TTRLengthVar="31" TTRCardNo="493778" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0003118" TTRTripId="3258" TTRStopNo="2170" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1669" PDR_BERDateTime="14/04/2022 10:36:11" PDR_BEREquipmentType="2" PDR_BEREquipmentId="263"/>
+  <TicketTransactionBis TTRDateTime="14/04/2022 11:08:34" TTRLengthVar="31" TTRCardNo="410100" TTRContractId="78" TTRScontoId="0" TTRCardType="2" TTRCardHolderClass="3" TTRRouteCode="0003118" TTRTripId="3258" TTRStopNo="41338" TTRFirstUsedDate="01/01/1970 01:00:00" TTRRemainingValue="31/08/2022 23:59:59" TTRCheckIn="1" TTRContractQuantity="1" TTRRECHK="1784" PDR_BERDateTime="14/04/2022 10:36:11" PDR_BEREquipmentType="2" PDR_BEREquipmentId="263"/>
+  <BusEquipmentRecord BERDateTime="14/04/2022 09:53:46" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="764" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="14/04/2022 09:53:46" PDR_BEREquipmentType="2" PDR_BEREquipmentId="764"/>
+  <CodBusRecord CBRDateTime="14/04/2022 09:53:46" CBRLengthVar="10" CBRMatricolaBus="1686" CBRRFU="" PDR_BERDateTime="14/04/2022 09:53:46" PDR_BEREquipmentType="2" PDR_BEREquipmentId="764"/>
+  <BusEquipmentRecord BERDateTime="14/04/2022 10:04:47" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="764" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="14/04/2022 10:04:47" PDR_BEREquipmentType="2" PDR_BEREquipmentId="764"/>
+  <CodBusRecord CBRDateTime="14/04/2022 10:04:34" CBRLengthVar="10" CBRMatricolaBus="1686" CBRRFU="" PDR_BERDateTime="14/04/2022 10:04:47" PDR_BEREquipmentType="2" PDR_BEREquipmentId="764"/>
+  <BusEquipmentRecord BERDateTime="14/04/2022 10:36:14" BERLengthVar="8" BEREquipmentType="2" BEREquipmentId="764" BERVersione="5" BERRelease="1" BERFix="10" PDR_BERDateTime="14/04/2022 10:36:14" PDR_BEREquipmentType="2" PDR_BEREquipmentId="764"/>
+  <CodBusRecord CBRDateTime="14/04/2022 10:36:15" CBRLengthVar="10" CBRMatricolaBus="1686" CBRRFU="" PDR_BERDateTime="14/04/2022 10:36:14" PDR_BEREquipmentType="2" PDR_BEREquipmentId="764"/>
 </Transaction>

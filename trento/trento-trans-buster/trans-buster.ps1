@@ -388,6 +388,6 @@ else
 {
     dl
     gsa
-    start-sleep 7
+    start-sleep 10
     cat "c:\users\jamiro ferrara\downloads\DirAnnullati.txt" | % {tbus $_}
 }

@@ -35,7 +35,12 @@
       "ProjectGuid": "45b4418b-4b15-4bf6-94fc-448ba0d90f00",
       "DisplayName": "GetMissingSessions",
       "ColorIndex": 5
+    },
+    "fbbfea46-1350-4dfc-a92e-fb1e149f7f35": {
+      "ProjectGuid": "fbbfea46-1350-4dfc-a92e-fb1e149f7f35",
+      "DisplayName": "GetMissingSessions",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 7
 }

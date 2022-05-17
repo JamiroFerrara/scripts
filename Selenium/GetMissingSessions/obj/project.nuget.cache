@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7Pvyjm9g3ZssHcYjcl5sVUp+R2/GIc6ton61VJme66laB7yIfUoLZd0x82M8PgWFxQL6mzEaZLBOuIhThi4PTQ==",
+  "dgSpecHash": "BVJgR3PD0lE/ZzwpMjo4RhJBC7kIXcEq7ycoZbSMfWstaX+UHJ6Wrlej+T2JC6CwsBtqOkWvZD5XFeSOff1qTw==",
   "success": true,
   "projectFilePath": "C:\\Scripts\\Selenium\\GetMissingSessions\\GetMissingSessions.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Jamiro Ferrara\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
   "logs": []
 }
