@@ -5,7 +5,7 @@ if ($args.count -eq 1)
 else 
 {
   msbuild /p:Configuration=debug
-  cd bin/debug
+  start-sleep 0.7
   $path = es -path ./ *.exe | grep "Debug" | grep "bin"
   ii $path
 }

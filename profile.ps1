@@ -46,5 +46,5 @@ Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock {
 ."C:\scripts\profile-modules\functions.ps1"
 ."C:\scripts\profile-modules\cmatrix.ps1"
 
-cd $user
+#cd $user
 clear
