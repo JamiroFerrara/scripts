@@ -250,6 +250,8 @@ Set-Alias -Name unify -Value 'C:\scripts\openunify.ps1'
 Set-Alias -Name un -Value 'C:\scripts\openunify.ps1'
 Set-Alias -Name drag -Value 'C:\scripts\opendragdrop.ps1'
 Set-Alias -Name dr -Value 'C:\scripts\opendragdrop.ps1'
+Set-Alias -Name build -Value 'C:\Scripts\build.ps1'
+Set-Alias -Name debug -Value 'C:\Scripts\buildDebug.ps1'
 
 #Dir Helpers
 Set-Alias -Name scripts -Value 'C:\scripts\openscripts.ps1'
