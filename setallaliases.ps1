@@ -235,8 +235,6 @@ Set-Alias -Name count -Value 'C:\scripts\count.ps1'
 Set-Alias -Name extract -Value 'C:\scripts\extract.ps1'
 Set-Alias -Name debloat -Value 'C:\scripts\debloat.ps1'
 
-#DBremen
-
 #Menus
 Set-Alias -Name go -Value 'C:\scripts\fzfnavigator\go2.ps1'
 Set-Alias -Name go2 -Value 'C:\scripts\fzfnavigator\go2.ps1'
@@ -252,6 +250,7 @@ Set-Alias -Name drag -Value 'C:\scripts\opendragdrop.ps1'
 Set-Alias -Name dr -Value 'C:\scripts\opendragdrop.ps1'
 Set-Alias -Name build -Value 'C:\Scripts\build.ps1'
 Set-Alias -Name debug -Value 'C:\Scripts\buildDebug.ps1'
+Set-Alias -Name bump -Value 'C:\Scripts\AssemblyInfoUtil\bump.ps1'
 
 #Dir Helpers
 Set-Alias -Name scripts -Value 'C:\scripts\openscripts.ps1'
