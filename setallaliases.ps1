@@ -57,6 +57,7 @@ Set-Alias -Name rdpps -Value 'C:\scripts\trento\rdp-trento\rdp-enter-ps-session.
 
 #Git
 Set-Alias -Name commit -Value 'C:\scripts\commit.ps1'
+Set-Alias -Name co -Value 'C:\scripts\commit.ps1'
 Set-Alias -Name pull -Value 'C:\scripts\pull.ps1'
 Set-Alias -Name newrepo -Value 'C:\scripts\gitCreateRepo.ps1'
 Set-Alias -Name clonerepo -Value 'C:\scripts\clonerepo.ps1'
