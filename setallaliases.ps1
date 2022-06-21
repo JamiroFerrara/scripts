@@ -235,6 +235,7 @@ Set-Alias -Name count -Value 'C:\scripts\count.ps1'
 Set-Alias -Name extract -Value 'C:\scripts\extract.ps1'
 Set-Alias -Name debloat -Value 'C:\scripts\debloat.ps1'
 Set-Alias -Name cheat -Value 'C:\scripts\cheatsh.ps1'
+Set-Alias -Name cheat_nvim -Value 'C:\scripts\cheatsh_nvim.ps1'
 Set-Alias -Name ch -Value 'C:\scripts\cheatsh.ps1'
 
 #Menus
