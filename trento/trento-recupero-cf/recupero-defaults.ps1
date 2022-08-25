@@ -21,8 +21,9 @@ if ($args.count -eq 0)
         foreach($file in $files)
         {
             $date = (get-date).addminutes($i).tostring("yyMMddhhmm")
-            $fullName = "$header$date$zero$bus.dat"
-            Copy-Item $file "./$fullName"
+            $fullName = "$header$date$zero$bus"
+            $mittDepResult = mitttransdeploycli $file $fullName
+            Copy-Item $mittDepResult ("./$fullName" + ".dat")
             $i++
         }
 

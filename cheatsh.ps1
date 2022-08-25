@@ -2,7 +2,7 @@ $languages = @("powershell", "csharp", "javascript", "typescript", "scss", "node
 
 if ($args.count -eq 1)
 {
-  $url = "https://cheat.sh/"
+  $url = "https://cht.sh/"
   $sTerm = $args[0]
   $sTerm = $sTerm.Replace(" ", "_")
   $selected = $languages | fzf --height 50% --reverse
@@ -22,7 +22,7 @@ else
   $selected = $languages | fzf --height 50% --reverse
 
   while ($true){
-    $url = "https://cheat.sh/"
+    $url = "https://cht.sh/"
     $sTerm = Read-Host "What would you like to know about $($selected)?"
     $sTerm = $sTerm.Replace(" ", "_")
     $url = $url + $selected + "/" + $sTerm

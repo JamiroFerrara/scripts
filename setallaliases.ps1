@@ -59,6 +59,7 @@ Set-Alias -Name rdpps -Value 'C:\scripts\trento\rdp-trento\rdp-enter-ps-session.
 Set-Alias -Name commit -Value 'C:\scripts\commit.ps1'
 Set-Alias -Name co -Value 'C:\scripts\commit.ps1'
 Set-Alias -Name pull -Value 'C:\scripts\pull.ps1'
+Set-Alias -Name pu -Value 'C:\scripts\pull.ps1'
 Set-Alias -Name newrepo -Value 'C:\scripts\gitCreateRepo.ps1'
 Set-Alias -Name clonerepo -Value 'C:\scripts\clonerepo.ps1'
 Set-Alias -Name github -Value 'C:\scripts\opengithub.ps1'
@@ -285,6 +286,7 @@ Set-Alias -Name dotfiles -Value 'C:\scripts\opendotfiles.ps1'
 Set-Alias -Name tserver -Value 'C:\scripts\tserver.ps1'
 Set-Alias -Name aliases -Value 'C:\scripts\aliases.ps1'
 Set-Alias -Name al -Value 'C:\scripts\aliases.ps1'
+Set-Alias -Name esl -Value 'C:\Scripts\eslocal.ps1'
 
 #OpenAI
 Set-Alias -Name psh -Value 'C:\scripts\Open-Ai\PS-Helper.ps1'
