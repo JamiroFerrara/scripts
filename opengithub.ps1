@@ -1,2 +1,3 @@
-cd '~\GitHub\Tecnoace'
+cd 'C:\Projects'
+c
 c

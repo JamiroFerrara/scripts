@@ -48,6 +48,9 @@ Set-Alias -Name rdpc -Value 'C:\Scripts\trento\rdp-trento\rdp-concentratore.ps1'
 Set-Alias -Name trento -Value 'C:\Scripts\Trento\list-trento-commands.ps1'
 Set-Alias -Name tn -Value 'C:\Scripts\Trento\list-trento-commands.ps1'
 
+#AEP
+Set-Alias -Name haep -Value 'C:\Scripts\haep.ps1'
+
 #RDP
 Set-Alias -Name rdp -Value 'C:\scripts\trento\rdp-trento\rdp-trento.ps1'
 Set-Alias -Name rdp147 -Value 'C:\scripts\trento\rdp147.ps1'
@@ -68,6 +71,13 @@ Set-Alias -Name opengitweb -Value Open-GitWeb
 Set-Alias -Name opengit -Value Open-GitWeb
 Set-Alias -Name ogit -Value Open-GitWeb
 Set-Alias -Name ogw -Value Open-GitWeb
+Set-Alias -Name st -Value "C:\scripts\st.ps1"
+Set-Alias -Name tace -Value "C:\scripts\tace.ps1"
+Set-Alias -Name gitext -Value "C:\scripts\gitext.ps1"
+Set-Alias -Name ge -Value "C:\scripts\gitext.ps1"
+Set-Alias -Name g -Value "git"
+Set-Alias -Name upd -Value "C:\scripts\upd.ps1"
+Set-Alias -Name cz -Value "C:\scripts\upd.ps1"
 
 #Applications
 Set-Alias -Name xy -Value 'C:\Program Files (x86)\XYplorer\XYplorer.exe'
@@ -110,7 +120,7 @@ Set-Alias -Name ranger -Value 'C:\Scripts\ranger.ps1'
 Set-Alias -Name lf -Value 'C:\Scripts\ranger.ps1'
 Set-Alias -Name w -Value 'wsl'
 Set-Alias -Name ol -Value 'c:\scripts\oneliners\oneliners.ps1'
-
+Set-Alias -Name ssms -Value 'c:\Scripts\ssms.ps1'
 
 #Application Downloads
 Set-Alias -Name initPC -Value 'C:\scripts\appdownloads\initall.ps1'
@@ -172,10 +182,7 @@ Set-Alias -Name time -Value 'C:\scripts\time.ps1'
 Set-Alias -Name q -Value exit
 Set-Alias -Name :q -Value exit
 Set-Alias -Name cm -Value 'C:\scripts\startCMatrix.ps1'
-Set-Alias -Name googler -Value 'C:\scripts\googler.ps1'
-Set-Alias -Name g -Value 'C:\scripts\googler.ps1'
-Set-Alias -Name luckygoogler -Value 'C:\scripts\lucky-googler.ps1'
-Set-Alias -Name lg -Value 'lazygit'
+Set-Alias -Name lg -Value 'C:\scripts\lazygit.ps1'
 Set-Alias -Name buy -Value 'C:\scripts\buy.ps1'
 Set-Alias -Name dwm -Value 'C:\scripts\rundwm.ps1'
 Set-Alias -Name rdwm -Value 'C:\scripts\rebuilddwm.ps1'

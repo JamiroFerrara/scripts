@@ -1,3 +1,4 @@
+$sPath = (Get-Item .).FullName
 $wDir = "C:/Scripts/deploy-unify/"
 $lDir = "C:/Scripts/deploy-unify/application-list"
 
@@ -83,3 +84,5 @@ if ($pName -contains "WPF_ADMINISTRATION"){
 $content = Get-Content $file
 $content[$lineN] = $line
 $content | Set-Content $file
+cd $sPath
+lg
