@@ -39,6 +39,7 @@ Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock {
  }
 
 #Sub Profiles  
+."C:\scripts\PSFunctions\functions.ps1"
 ."C:\scripts\setallaliases.ps1"
 ."C:\scripts\profile-modules\ip.ps1"
 ."C:\scripts\profile-modules\wsl.ps1"

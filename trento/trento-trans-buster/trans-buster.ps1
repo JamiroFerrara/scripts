@@ -350,25 +350,9 @@ if ($args.count -ne 0)
             #######################################################################
             #Print Out File
             #######################################################################
-
             echo "Printing.."
-            $file | out-file $wfile
-            cat $wfile | out-file $fileDir
-            write-host -foregroundcolor green "Done!"
 
-            #######################################################################
-            #Commit Transaction
-            #######################################################################
-            echo "Committing Transaction.."
-            $mpDir = "\\172.20.3.18\d$\MITTSERVER\BATCH\MITTPOPOLA_TRANS_REPAIR\bin"
-            $mpExe = $mpDir + "\Mittpopola.exe"
-            $mpConfig = $mpDir + "\Mittpopola.exe.config"
-
-            $transCode = $file | xml sel -t -v "Transaction/@cod_acq"
-            $cConfig = xml ed -u "(configuration/appSettings/add)[2]/@value" -v $transCode $mpConfig
-            $cConfig | out-file $mpConfig
-
-            psexec \\172.20.3.18 $mpExe
+            GetFileContentAndCommitTransaction -path $wfile
 
             #Invisbile Fix
             #Copy-Item $bFile $fileDir
@@ -391,3 +375,4 @@ else
     start-sleep 10
     cat "c:\users\jamiro ferrara\downloads\DirAnnullati.txt" | % {tbus $_}
 }
+
