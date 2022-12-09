@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "9CzSzuzyhwT2ejcKUP91DY0ypASOVvFjbTD3n51c2vUHO6/11UYK45Jbkn3tChkR+vYkRziPxr3x/NNVL2xHgA==",
+  "dgSpecHash": "YecMVa7GlUiyHMb+ra4fegT/zq4R1TKwXPlkywTxVpYQwk8Lmi75L3670R2CQ5VS/MXF/zy4fWuN4ZGjhLHvDQ==",
   "success": true,
   "projectFilePath": "C:\\Scripts\\Selenium\\GetReportScarichi\\Selenium_ReportScarichi\\Selenium_ReportScarichi\\Selenium_ReportScarichi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jamiro Ferrara\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Jamiro Ferrara\\.nuget\\packages\\selenium.webdriver\\4.1.0\\selenium.webdriver.4.1.0.nupkg.sha512",
-    "C:\\Users\\Jamiro Ferrara\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+    "C:\\Users\\Jamiro Ferrara\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
   "logs": []
 }

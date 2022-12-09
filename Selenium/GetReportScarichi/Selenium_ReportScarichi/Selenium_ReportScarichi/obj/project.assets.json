@@ -107,7 +107,9 @@
         "net5.0"
       ],
       "sources": {
-        "C:\\Libraries\\Packages_TecnoACE": {}
+        "C:\\Libraries\\Packages_TecnoACE": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nexus.easyticketing.it/repository/nuget-group/index.json": {}
       },
       "frameworks": {
         "net5.0": {
@@ -136,14 +138,15 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.13, 5.0.13]"
+            "version": "[5.0.17, 5.0.17]"
           }
         ],
         "frameworkReferences": {
@@ -151,7 +154,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

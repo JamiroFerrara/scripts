@@ -15,6 +15,7 @@ Set-Alias -Name nd -Value 'C:\scripts\linode\connect-node.ps1'
 #Base Helpers
 Set-Alias -Name l -Value 'C:\scripts\list.ps1'
 Set-Alias -Name vim -Value nvim
+Set-Alias -Name vi -Value nvim
 Set-Alias -Name accept-pipe -Value 'C:\scripts\accept-pipe.ps1'
 
 #Firefox 
@@ -298,6 +299,7 @@ Set-Alias -Name tserver -Value 'C:\scripts\tserver.ps1'
 Set-Alias -Name aliases -Value 'C:\scripts\aliases.ps1'
 Set-Alias -Name al -Value 'C:\scripts\aliases.ps1'
 Set-Alias -Name esl -Value 'C:\Scripts\eslocal.ps1'
+Set-Alias -Name otom -Value 'C:\scripts\OpenTomAtm.ps1'
 
 #OpenAI
 Set-Alias -Name psh -Value 'C:\scripts\Open-Ai\PS-Helper.ps1'

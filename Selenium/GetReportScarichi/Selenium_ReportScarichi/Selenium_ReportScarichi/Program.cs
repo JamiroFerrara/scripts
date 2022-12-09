@@ -55,7 +55,7 @@ namespace SeleniumTest
             dateBox.SendKeys(Keys.Backspace);
             dateBox.SendKeys(Keys.Backspace);
             var startYear = nowDate.AddDays(-nowDate.Day).AddMonths(-nowDate.Month);
-            dateBox.SendKeys("16/01/");
+            dateBox.SendKeys("01/11/");
             dateBox.SendKeys("2022");
             cDriver.FindElement(By.Id("Button2")).Click();
             Thread.Sleep(1000);
